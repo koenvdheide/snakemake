@@ -1,266 +1,0 @@
-
-PROGRAM: T-COFFEE Version_11.00.8cbe486 (2014-08-12 22:05:29 - Revision 8cbe486 - Build 477)
--full_log      	S	[0] 
--genepred_score	S	[0] 	nsd
--run_name      	S	[0] 
--mem_mode      	S	[0] 	mem
--extend        	D	[1] 	1 
--extend_mode   	S	[0] 	very_fast_triplet
--max_n_pair    	D	[0] 	10 
--seq_name_for_quadruplet	S	[0] 	all
--compact       	S	[0] 	default
--clean         	S	[0] 	no
--do_self       	FL	[0] 	0
--do_normalise  	D	[0] 	1000 
--template_file 	S	[0] 
--setenv        	S	[0] 	0
--template_mode 	S	[0] 
--flip          	D	[0] 	0 
--remove_template_file	D	[0] 	0 
--profile_template_file	S	[0] 
--in            	S	[1] 	tcoffee-R20180601-160858-0833-65059100-p1m.sequence
--seq           	S	[0] 
--aln           	S	[0] 
--method_limits 	S	[0] 
--method        	S	[0] 
--lib           	S	[0] 
--profile       	S	[0] 
--profile1      	S	[0] 
--profile2      	S	[0] 
--pdb           	S	[0] 
--relax_lib     	D	[0] 	1 
--filter_lib    	D	[0] 	0 
--shrink_lib    	D	[0] 	0 
--out_lib       	W_F	[0] 	no
--out_lib_mode  	S	[0] 	primary
--lib_only      	D	[0] 	0 
--outseqweight  	W_F	[0] 	no
--dpa           	FL	[0] 	0
--seq_source    	S	[0] 	ANY
--cosmetic_penalty	D	[0] 	0 
--gapopen       	D	[0] 	0 
--gapext        	D	[0] 	0 
--fgapopen      	D	[0] 	0 
--fgapext       	D	[0] 	0 
--nomatch       	D	[0] 	0 
--newtree       	W_F	[0] 	default
--tree          	W_F	[0] 	NO
--usetree       	R_F	[0] 
--tree_mode     	S	[0] 	nj
--distance_matrix_mode	S	[0] 	ktup
--distance_matrix_sim_mode	S	[0] 	idmat_sim1
--quicktree     	FL	[0] 	0
--outfile       	W_F	[0] 	default
--maximise      	FL	[1] 	1
--output        	S	[1] 	clustalw	msf	phylip	score_html	fasta
--len           	D	[0] 	0 
--infile        	R_F	[0] 
--matrix        	S	[0] 	default
--tg_mode       	D	[0] 	1 
--profile_mode  	S	[0] 	cw_profile_profile
--profile_comparison	S	[0] 	profile
--dp_mode       	S	[0] 	linked_pair_wise
--ktuple        	D	[0] 	1 
--ndiag         	D	[0] 	0 
--diag_threshold	D	[0] 	0 
--diag_mode     	D	[0] 	0 
--sim_matrix    	S	[0] 	vasiliky
--transform     	S	[0] 
--extend_seq    	FL	[0] 	0
--outorder      	S	[0] 	input
--inorder       	S	[0] 	aligned
--seqnos        	S	[0] 	off
--case          	S	[1] 	upper
--cpu           	D	[0] 	0 
--ulimit        	D	[0] 	-1 
--maxnseq       	D	[0] 	-1 
--maxlen        	D	[0] 	-1 
--sample_dp     	D	[0] 	0 
--weight        	S	[0] 	default
--seq_weight    	S	[0] 	no
--align         	FL	[1] 	1
--mocca         	FL	[0] 	0
--domain        	FL	[0] 	0
--start         	D	[0] 	0 
--len           	D	[0] 	0 
--scale         	D	[0] 	0 
--mocca_interactive	FL	[0] 	0
--method_evaluate_mode	S	[0] 	default
--evaluate_mode 	S	[0] 	triplet
--get_type      	FL	[0] 	0
--clean_aln     	D	[0] 	0 
--clean_threshold	D	[1] 	1 
--clean_iteration	D	[1] 	1 
--clean_evaluate_mode	S	[0] 	t_coffee_fast
--extend_matrix 	FL	[0] 	0
--prot_min_sim  	D	[40] 	40 
--prot_max_sim  	D	[90] 	90 
--prot_min_cov  	D	[40] 	40 
--pdb_type      	S	[0] 	d
--pdb_min_sim   	D	[35] 	35 
--pdb_max_sim   	D	[100] 	100 
--pdb_min_cov   	D	[50] 	50 
--pdb_blast_server	W_F	[0] 	EBI
--blast         	W_F	[0] 
--blast_server  	W_F	[0] 	EBI
--pdb_db        	W_F	[0] 	pdb
--protein_db    	W_F	[0] 	uniprot
--method_log    	W_F	[0] 	no
--struc_to_use  	S	[0] 
--cache         	W_F	[0] 	use
--align_pdb_param_file	W_F	[0] 	no
--align_pdb_hasch_mode	W_F	[0] 	hasch_ca_trace_bubble
--external_aligner	S	[0] 	NO
--msa_mode      	S	[0] 	tree
--master        	S	[0] 	no
--blast_nseq    	D	[0] 	0 
--lalign_n_top  	D	[0] 	10 
--iterate       	D	[0] 	0 
--trim          	D	[0] 	0 
--split         	D	[0] 	0 
--trimfile      	S	[0] 	default
--split         	D	[0] 	0 
--split_nseq_thres	D	[0] 	0 
--split_score_thres	D	[0] 	0 
--check_pdb_status	D	[0] 	0 
--clean_seq_name	D	[0] 	0 
--seq_to_keep   	S	[0] 
--dpa_master_aln	S	[0] 
--dpa_maxnseq   	D	[0] 	0 
--dpa_min_score1	D	[0] 
--dpa_min_score2	D	[0] 
--dpa_keep_tmpfile	FL	[0] 	0
--dpa_debug     	D	[0] 	0 
--multi_core    	S	[0] 	templates_jobs_relax_msa_evaluate
--n_core        	D	[1] 	8 
--max_n_proc    	D	[0] 	0 
--lib_list      	S	[0] 
--prune_lib_mode	S	[0] 	5
--tip           	S	[0] 	none
--rna_lib       	S	[0] 
--no_warning    	D	[0] 	0 
--run_local_script	D	[0] 	0 
--plugins       	S	[0] 	default
--proxy         	S	[0] 	unset
--email         	S	[0] 
--clean_overaln 	D	[0] 	0 
--overaln_param 	S	[0] 
--overaln_mode  	S	[0] 
--overaln_model 	S	[0] 
--overaln_threshold	D	[0] 	0 
--overaln_target	D	[0] 	0 
--overaln_P1    	D	[0] 	0 
--overaln_P2    	D	[0] 	0 
--overaln_P3    	D	[0] 	0 
--overaln_P4    	D	[0] 	0 
--exon_boundaries	S	[0] 
--dump          	S	[0] 	no
--display       	D	[0] 	100 
-
-INPUT FILES
-	Input File (S) tcoffee-R20180601-160858-0833-65059100-p1m.sequence  Format fasta_seq
-	Input File (M) proba_pair 
-
-Identify Master Sequences [no]:
-
-Master Sequences Identified
-INPUT SEQUENCES: 18 SEQUENCES  [PROTEIN]
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A098R5K9|A0A098R5K9_9LACO Length  193 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A0F6IY87|A0A0F6IY87_BACTU Length  130 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A0G0M236|A0A0G0M236_9BACT Length  331 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A0R1GF26|A0A0R1GF26_9LACO Length  195 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A0R1QYB2|A0A0R1QYB2_9LACO Length  177 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO Length  179 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO Length  201 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A0U2W691|A0A0U2W691_9BURK Length  368 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A1D7V787|A0A1D7V787_9GAMM Length   98 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A1G0M236|A0A1G0M236_9DELT Length  226 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A1T5JTW1|A0A1T5JTW1_9BACT Length  510 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A241RLN3|A0A241RLN3_LACPE Length  194 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A2D7V787|A0A2D7V787_9BACT Length   93 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE Length  194 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|F6IY87|F6IY87_LACPE         Length  195 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|G0M236|G0M236_LACPE         Length  195 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|Q74LF6|Q74LF6_LACJO         Length   99 type PROTEIN Struct Unchecked
-  Input File tcoffee-R20180601-160858-0833-65059100-p1m.sequence Seq tr|W6T8T8|W6T8T8_9LACO         Length  196 type PROTEIN Struct Unchecked
-
-	Multi Core Mode: 8 processors:
-
-	--- Process Method/Library/Aln Stcoffee-R20180601-160858-0833-65059100-p1m.sequence
-	--- Process Method/Library/Aln Mproba_pair
-	xxx Retrieved Stcoffee-R20180601-160858-0833-65059100-p1m.sequence
-	xxx Retrieved Mproba_pair
-
-	All Methods Retrieved
-
-MANUAL PENALTIES: gapopen=0 gapext=0
-
-	Library Total Size: [144502]
-
-Library Relaxation: Multi_proc [8]
- 
-!		[Relax Library][TOT=    2][  0 %][ ELAPSED  TIME:    0 sec.]!		[Relax Library][TOT=    2][100 %][ ELAPSED  TIME:    0 sec.]
-
-Relaxation Summary: [144502]--->[95141]
-
-
-
-UN-WEIGHTED MODE: EVERY SEQUENCE WEIGHTS 1
-
-MAKE GUIDE TREE 
-	[MODE=nj][DONE]
-
-PROGRESSIVE_ALIGNMENT [Tree Based]
-Group    1: tr|A0A098R5K9|A0A098R5K9_9LACO
-Group    2: tr|A0A0F6IY87|A0A0F6IY87_BACTU
-Group    3: tr|A0A0G0M236|A0A0G0M236_9BACT
-Group    4: tr|A0A0R1GF26|A0A0R1GF26_9LACO
-Group    5: tr|A0A0R1QYB2|A0A0R1QYB2_9LACO
-Group    6: tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO
-Group    7: tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO
-Group    8: tr|A0A0U2W691|A0A0U2W691_9BURK
-Group    9: tr|A0A1D7V787|A0A1D7V787_9GAMM
-Group   10: tr|A0A1G0M236|A0A1G0M236_9DELT
-Group   11: tr|A0A1T5JTW1|A0A1T5JTW1_9BACT
-Group   12: tr|A0A241RLN3|A0A241RLN3_LACPE
-Group   13: tr|A0A2D7V787|A0A2D7V787_9BACT
-Group   14: tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE
-Group   15: tr|F6IY87|F6IY87_LACPE
-Group   16: tr|G0M236|G0M236_LACPE
-Group   17: tr|Q74LF6|Q74LF6_LACJO
-Group   18: tr|W6T8T8|W6T8T8_9LACO
-
-
-	Group   19: [Group    5 (   1 seq)] with [Group    1 (   1 seq)]-->[Len=  193][PID:19266]
-	Group   20: [Group   15 (   1 seq)] with [Group   12 (   1 seq)]-->[Len=  195][PID:19268]
-	Group   21: [Group   16 (   1 seq)] with [Group   20 (   2 seq)]-->[Len=  195][PID:19268]
-	Group   22: [Group   14 (   1 seq)] with [Group   21 (   3 seq)]-->[Len=  195][PID:19268]
-	Group   23: [Group   22 (   4 seq)] with [Group    6 (   1 seq)]-->[Len=  196][PID:19268]
-	Group   24: [Group   23 (   5 seq)] with [Group   19 (   2 seq)]-->[Len=  196][PID:19264][Forked]
-	Group   26: [Group   25 (   2 seq)] with [Group   24 (   7 seq)]-->[Len=  201][PID:19262][Forked]
-	Group   27: [Group    4 (   1 seq)] with [Group   26 (   9 seq)]-->[Len=  203][PID:19262]
-	Group   28: [Group   11 (   1 seq)] with [Group   27 (  10 seq)]-->[Len=  520][PID:19262]
-	Group   29: [Group    3 (   1 seq)] with [Group   28 (  11 seq)]-->[Len=  664][PID:19262]
-	Group   30: [Group   13 (   1 seq)] with [Group   29 (  12 seq)]-->[Len=  664][PID:19262]
-	Group   33: [Group   32 (   3 seq)] with [Group   30 (  13 seq)]-->[Len=  889][PID:19210][Forked]
-	Group   34: [Group   17 (   1 seq)] with [Group   33 (  16 seq)]-->[Len=  889][PID:19210]
-	Group   35: [Group    2 (   1 seq)] with [Group   34 (  17 seq)]-->[Len=  889][PID:19210]
-
-
-!		[Final Evaluation][TOT=  111][  0 %][ ELAPSED  TIME:    0 sec.]!		[Final Evaluation][TOT=  111][  1 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][  2 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][  3 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][  4 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][  5 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][  6 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][  7 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][  8 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][  9 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 10 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 11 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 12 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 13 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 14 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 15 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 16 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 17 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 18 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 19 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 20 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 21 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 22 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 23 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 24 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 25 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 26 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 27 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 28 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 29 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 30 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 31 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 32 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 33 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 34 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 35 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 36 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 37 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 38 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 39 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 40 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 41 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 42 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 43 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 44 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 45 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 46 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 47 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 48 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 49 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 50 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 51 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 52 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 53 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 54 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 55 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 56 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 57 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 58 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 59 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 60 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 61 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 62 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 63 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 64 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 65 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 66 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 67 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 68 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 69 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 70 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 71 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 72 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 73 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 74 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 75 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 76 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 77 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 78 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 79 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 80 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 81 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 82 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 83 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 84 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 85 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 86 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 87 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 88 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 89 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 90 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 91 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 92 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 93 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 94 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 95 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 96 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 97 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 98 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][ 99 %][REMAINING TIME:    0 sec.]!		[Final Evaluation][TOT=  111][100 %][ ELAPSED  TIME:    0 sec.]
-
-
-
-OUTPUT RESULTS
-	#### File Type= GUIDE_TREE      Format= newick          Name= tcoffee-R20180601-160858-0833-65059100-p1m.dnd
-	#### File Type= MSA             Format= clustalw        Name= tcoffee-R20180601-160858-0833-65059100-p1m.clustalw
-	#### File Type= MSA             Format= msf             Name= tcoffee-R20180601-160858-0833-65059100-p1m.msf
-	#### File Type= MSA             Format= phylip          Name= tcoffee-R20180601-160858-0833-65059100-p1m.phylip
-	#### File Type= MSA             Format= score_html      Name= tcoffee-R20180601-160858-0833-65059100-p1m.score_html
-	#### File Type= MSA             Format= fasta_aln       Name= tcoffee-R20180601-160858-0833-65059100-p1m.fasta_aln
-
-# Command Line: /nfs/public/ro/es/appbin/linux-x86_64/T-COFFEE_installer_Version_11.00.8cbe486_linux_x64/bin/t_coffee -in tcoffee-R20180601-160858-0833-65059100-p1m.sequence -case upper -n_core 8 -output clustalw msf phylip score_html fasta  [PROGRAM:T-COFFEE]
-# T-COFFEE Memory Usage: Current= 33.714 Mb, Max= 37.116 Mb
-# Results Produced with T-COFFEE Version_11.00.8cbe486 (2014-08-12 22:05:29 - Revision 8cbe486 - Build 477)
-# T-COFFEE is available from http://www.tcoffee.org
-# Register on: https://groups.google.com/group/tcoffee/
