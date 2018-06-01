@@ -1,1 +1,0 @@
-scripts/emboss_seqret_lwp.pl scripts/data/t_coffee_msa.aln-clustalw.clustalw --inputformat clustal --outputformat fasta --email r.beeloo@outlook.com --stype protein --outfile scripts/data/fasta_msa

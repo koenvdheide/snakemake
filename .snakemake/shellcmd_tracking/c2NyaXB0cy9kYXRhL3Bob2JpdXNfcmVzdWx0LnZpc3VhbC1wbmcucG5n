@@ -1,1 +1,0 @@
-perl scripts/phobius_lwp.pl --email r.beeloo@outlook.com --outfile scripts/data/phobius_result scripts/data/sequence.fasta --format grp

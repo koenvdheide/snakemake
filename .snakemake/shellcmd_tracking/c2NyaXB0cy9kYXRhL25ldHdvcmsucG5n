@@ -1,2 +1,0 @@
-query=$(python3 scripts/formatter.py scripts/data/uniprot_genes.txt '%0d')
-wget "https://string-db.org/api/image/network?identifiers=$query&limit=20" --output-document scripts/data/network.png

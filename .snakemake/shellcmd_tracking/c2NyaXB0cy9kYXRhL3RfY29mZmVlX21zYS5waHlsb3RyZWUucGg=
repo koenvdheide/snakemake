@@ -1,1 +1,0 @@
-scripts/tcoffee_lwp.pl --email r.beeloo@outlook.com --outfile scripts/data/t_coffee_msa scripts/data/uniprot_sequences.fasta

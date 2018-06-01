@@ -1,2 +1,0 @@
-query=$(python3 scripts/formatter.py scripts/data/uniprot_ids.txt '+OR+' q)
-wget "http://www.uniprot.org/uniprot/?query=$query&format=fasta" --output-document scripts/data/uniprot_sequences.fasta
