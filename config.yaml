@@ -1,0 +1,32 @@
+##############################################################
+# The configuration file basically provides a comprehensive
+# overview of the parameters used in the pipeline. Note that
+# the Snakefile conatins more parameters, however the ones
+# mentioned here can be changed, whereas the other parameters
+# are needed for proper funtioning (such as output format
+# paramters)
+##############################################################
+
+##############################################################
+# BASIC config
+##############################################################
+mail: r.beeloo@outlook.com
+
+##############################################################
+# BLAST parameters
+##############################################################
+blast_database: uniprotkb_bacteria
+blast_max_alignments: 250
+e_value_cut_off: 0.05
+identity_cut_off: 60
+
+##############################################################
+# STRING parameters
+##############################################################
+min_con_score: 400
+max_numb_con: 20
+
+##############################################################
+# PubMed parameters
+##############################################################
+maximum_articles_retrieve: 10
