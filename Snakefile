@@ -7,8 +7,6 @@ Latest modification:
     - removed extract scripts and used command line commands as replacement
 """
 
-WDIR = "/home/rick/aprotein_predict/"
-workdir: WDIR
 configfile: "config.yaml"
 
 rule user_input:

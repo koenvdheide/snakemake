@@ -1,4 +1,3 @@
-name: snakemake-tutorial
 channels:
   - bioconda
   - conda-forge
@@ -201,8 +200,6 @@ dependencies:
   - libgfortran-ng=7.2.0=hdf63c60_3
   - libstdcxx-ng=7.2.0=hdf63c60_3
   - mkl=2018.0.2=1
-  - numpy=1.14.3=py35h14a74c5_0
-  - numpy-base=1.14.3=py35hdbf6ddf_0
   - python=3.5.1=5
   - tk=8.5.18=0
   - pip:

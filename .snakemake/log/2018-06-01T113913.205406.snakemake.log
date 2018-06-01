@@ -1,0 +1,5 @@
+PermissionError in line 11 of /vagrant/workflow/rick/Snakefile:
+[Errno 13] Permission denied: '/home/rick'
+  File "/vagrant/workflow/rick/Snakefile", line 11, in <module>
+  File "/home/vagrant/miniconda3/lib/python3.6/os.py", line 210, in makedirs
+  File "/home/vagrant/miniconda3/lib/python3.6/os.py", line 220, in makedirs
