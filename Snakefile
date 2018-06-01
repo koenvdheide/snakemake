@@ -198,7 +198,7 @@ rule results:
         'scripts/data/uniprot_records.txt',
         'scripts/data/t_coffee_msa.phylotree.ph',
         'scripts/data/fasta_msa.out.txt',
-        'scripts/data/literature_tab.txt',
+        'scripts/data/literature_results.txt',
         'scripts/data/network.png',
         'scripts/data/kegg_table.txt'
-        'scripts/gather_parameters.py'
+
