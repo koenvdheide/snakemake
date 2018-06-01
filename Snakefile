@@ -7,8 +7,6 @@ Latest modification:
     - removed extract scripts and used command line commands as replacement
 """
 
-WDIR = "/home/rick/aprotein_predict/"
-workdir: WDIR
 configfile: "config.yaml"
 
 rule user_input:
@@ -160,6 +158,7 @@ rule literature:
         'scripts/data/literature_results.txt'
     shell:
         "query=$(python3 scripts/formatter.py {input} ' OR ')\n"
+        "echo $query\n"
         'esearch -db gene -query "$query" | elink -target pubmed | efetch -format xml --stop {params.max_articles}' +
         ' | xtract -pattern PubmedArticle -element MedlineCitation/PMID ArticleTitle PubDate/Year Journal/ISSN  Abstract/AbstractText> {output}'
 
@@ -203,4 +202,3 @@ rule results:
         'scripts/data/literature_results.txt',
         'scripts/data/network.png',
         'scripts/data/kegg_table.txt'
-

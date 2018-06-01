@@ -1,0 +1,364 @@
+CLUSTAL FORMAT for T-COFFEE Version_11.00.8cbe486 [http://www.tcoffee.org] [MODE:  ], CPU=0.00 sec, SCORE=608, Nseq=18, Len=889 
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  MS-----VSSSRRIAKN-------SVFLY---IRML-VI-----------
+tr|Q74LF6|Q74LF6_LACJO          MD-----YQELA---NLL-------KVVA---EP----------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  MT-----KNSS---AYR-------ISILA---LFCA-II-----------
+tr|A0A2D7V787|A0A2D7V787_9BACT  MI-----KTA-----LLL-------TFL---FFLNS-FA-----------
+tr|G0M236|G0M236_LACPE          MMQ----RRSN---AYH-------ISVLA---VLMA-IV-----------
+tr|A0A1G0M236|A0A1G0M236_9DELT  MH-----LSDC---FI---------DVMA---YVSYFLK-----------
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  M----------------------------------A-II-----------
+tr|F6IY87|F6IY87_LACPE          MMQ----RRSN---AYH-------ISVLA---VLMA-IV-----------
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  MQ-----RRSN---AYH-------ISVLA---VLMA-IV-----------
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  MEVARMQRRSN---AYH-------ISVLA---VLMA-II-----------
+tr|A0A0G0M236|A0A0G0M236_9BACT  MN-----TVWL---AFITGLTTGGISCFAVQGGLLA-ST-----------
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  M----------------------------------A-IV-----------
+tr|W6T8T8|W6T8T8_9LACO          MQ-----RRSN---AYH-------ISVLA---VLMA-II-----------
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  MD-----IKDYSIKKYRI-------RPEA-----MK-LI-----------
+tr|A0A241RLN3|A0A241RLN3_LACPE  MQ-----RRSN---AYH-------ISVLA---VLMA-IV-----------
+tr|A0A098R5K9|A0A098R5K9_9LACO  MQ-----RRSN---AYH-------ISVLA---VLMA-IV-----------
+tr|A0A1D7V787|A0A1D7V787_9GAMM  MS-----IDRT---SA-----------------LSAI-S-----------
+tr|A0A0U2W691|A0A0U2W691_9BURK  MK-----TKAA---IA-----------------W-EA-GKPLTIEEVDLE
+                                *                                                 
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  ----------ML------I-------------------------------
+tr|Q74LF6|Q74LF6_LACJO          --------------------------------------------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  ----------II------Q-------------------------------
+tr|A0A2D7V787|A0A2D7V787_9BACT  ----------YG------Q-------------------------------
+tr|G0M236|G0M236_LACPE          ----------II------Q-------------------------------
+tr|A0A1G0M236|A0A1G0M236_9DELT  ----------SV--------------------------------------
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  ----------II------Q-------------------------------
+tr|F6IY87|F6IY87_LACPE          ----------II------Q-------------------------------
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  ----------II------Q-------------------------------
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  ----------IV------Q-------------------------------
+tr|A0A0G0M236|A0A0G0M236_9BACT  ----------LT------Q-------------------------------
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  ----------II------Q-------------------------------
+tr|W6T8T8|W6T8T8_9LACO          ----------IV------Q-------------------------------
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  ----------K---------------------------------------
+tr|A0A241RLN3|A0A241RLN3_LACPE  ----------II------Q-------------------------------
+tr|A0A098R5K9|A0A098R5K9_9LACO  ----------II------Q-------------------------------
+tr|A0A1D7V787|A0A1D7V787_9GAMM  ----------HL--------------------------------------
+tr|A0A0U2W691|A0A0U2W691_9BURK  GPRAGEVLIEVKATGICHTDYYTLSGADPEGIFPAILGHEGAGVVVDVGP
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  ---------NIFS--VRYVLKGLGVVDYGVFNVVAGLVTMFASLRSIVSS
+tr|Q74LF6|Q74LF6_LACJO          ---------NRLKILNLLSCG-----------------------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  ---------NFVPLFGYIPVGPLDLTTIHVTVIVAAL-------------
+tr|A0A2D7V787|A0A2D7V787_9BACT  ---------DT---------------------------------------
+tr|G0M236|G0M236_LACPE          ---------NIVPFFGYIPLPGLSITTIHVTVIIAAV-------------
+tr|A0A1G0M236|A0A1G0M236_9DELT  --------QTKQPAYEEVKDD-------------IRR-------------
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  ---------NVVPFLGYIPLAGLSITTIHITVIIAAV-------------
+tr|F6IY87|F6IY87_LACPE          ---------NIVPFFGYIPLPGLSITTIHVTVIIAAV-------------
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  ---------NIVPFFGYIPLPGLSITTIHVTVIIAAV-------------
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  ---------NVVPFFGYIPISGLSLTTIHVTVIVAAV-------------
+tr|A0A0G0M236|A0A0G0M236_9BACT  ---------Q--KGSQ-----KTAIASFLASKVFAYT-------------
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  ---------NIVPFFGYIPLPGLSITTIHVTVIIAAV-------------
+tr|W6T8T8|W6T8T8_9LACO          ---------NVVPFFGYIPISGLSLTTIHVTVIVAAV-------------
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  ----------------YL--------------------------------
+tr|A0A241RLN3|A0A241RLN3_LACPE  ---------NIVPFFGYIPLPGLSITTIHVTVIIAAV-------------
+tr|A0A098R5K9|A0A098R5K9_9LACO  ---------NIVPFFGYIPLPGLSITTIHVTVIIAAV-------------
+tr|A0A1D7V787|A0A1D7V787_9GAMM  --------QAR---------------------------------------
+tr|A0A0U2W691|A0A0U2W691_9BURK  GVTTLKKDDHV---------------------------------------
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  ATLRFHAYAIGE--------------------------------------
+tr|Q74LF6|Q74LF6_LACJO          --------------------------------------------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  --------VLGP--------------------------------------
+tr|A0A2D7V787|A0A2D7V787_9BACT  --------------------------------------------------
+tr|G0M236|G0M236_LACPE          --------VLGP--------------------------------------
+tr|A0A1G0M236|A0A1G0M236_9DELT  --------LLSE--------------------------------------
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  --------ILGP--------------------------------------
+tr|F6IY87|F6IY87_LACPE          --------VLGP--------------------------------------
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  --------VLGP--------------------------------------
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  --------VLGP--------------------------------------
+tr|A0A0G0M236|A0A0G0M236_9BACT  --------LFGI--------------------------------------
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  --------VLGP--------------------------------------
+tr|W6T8T8|W6T8T8_9LACO          --------VLGP--------------------------------------
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  --------------------------------------------------
+tr|A0A241RLN3|A0A241RLN3_LACPE  --------VLGP--------------------------------------
+tr|A0A098R5K9|A0A098R5K9_9LACO  --------VLGP--------------------------------------
+tr|A0A1D7V787|A0A1D7V787_9GAMM  ----------EP--------------------------------------
+tr|A0A0U2W691|A0A0U2W691_9BURK  ----------IPLYTPECRQCKFCLSRKTNLCQAIRSTQGRGLMPDATSR
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  --GNESKVSDVFTASCNIYALLALIILIGGEAVGLWFINTQADIPLDRVS
+tr|Q74LF6|Q74LF6_LACJO          --------------------------------------------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  --RDGTIV------------------------GTVWGLIT----------
+tr|A0A2D7V787|A0A2D7V787_9BACT  --------------------------------------------------
+tr|G0M236|G0M236_LACPE          --RDGAIV------------------------GGIWGIID----------
+tr|A0A1G0M236|A0A1G0M236_9DELT  --SEGCLA------------------------RGLFPPEE----------
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  --RDGALV------------------------GGIWGIID----------
+tr|F6IY87|F6IY87_LACPE          --RDGAIV------------------------GGIWGIID----------
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  --RDGAIV------------------------GGIWGIID----------
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  --KDGALV------------------------GGMWGVID----------
+tr|A0A0G0M236|A0A0G0M236_9BACT  --LLG-LV------------------------GGSIAISP----------
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  --RDGAII------------------------GGAWGLIA----------
+tr|W6T8T8|W6T8T8_9LACO          --KDGALV------------------------GGMWGVID----------
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  ---------------------------------------N----------
+tr|A0A241RLN3|A0A241RLN3_LACPE  --RDGAIV------------------------GGIWGIID----------
+tr|A0A098R5K9|A0A098R5K9_9LACO  --RDGAII------------------------GGAWGLIA----------
+tr|A0A1D7V787|A0A1D7V787_9GAMM  --QDAAQ-------------------------------------------
+tr|A0A0U2W691|A0A0U2W691_9BURK  FSLDGKPI------------------------FHYMGTST----------
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  AANWVYQLTIFSFVIGLMTVPFSSLIFAYERMGVFSI-------------
+tr|Q74LF6|Q74LF6_LACJO          ------------EM--CACDILDHFNFTQPTLSHHMKV------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  ---FV-----RAFV--APTSPLAPLVFTNPVISILPR-------------
+tr|A0A2D7V787|A0A2D7V787_9BACT  --------------------------------------------------
+tr|G0M236|G0M236_LACPE          ---WI-----RAFV--APTSALAPIVFTNPLISVVPR-------------
+tr|A0A1G0M236|A0A1G0M236_9DELT  ---YD-----QARF--ALCAWI-------------DE-------------
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  ---WI-----RAFV--APTSPLAPMVFTNPLVSVLPR-------------
+tr|F6IY87|F6IY87_LACPE          ---WI-----RAFV--APTSALAPIVFTNPLISVVPR-------------
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  ---WI-----RAFV--APTSALAPIVFTNPLISVVPR-------------
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  ---WI-----RAFV--APTSALAPYVFTNPLVSVVPR-------------
+tr|A0A0G0M236|A0A0G0M236_9BACT  ---KL-----QGFM--QIAAGIFMIATVGKLLEIHPIFRRFTVTPPKFLF
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  ---WI-----RAFV--APTSPLAPIVFTNPLISVIPR-------------
+tr|W6T8T8|W6T8T8_9LACO          ---WI-----RAFV--APTSALAPYVFTNPLVSVVPR-------------
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  ---WK-----E-----TSQKEEEDKFF---LDKIVNT-------------
+tr|A0A241RLN3|A0A241RLN3_LACPE  ---WI-----RAFV--APTSALAPIVFTNPLISVVPR-------------
+tr|A0A098R5K9|A0A098R5K9_9LACO  ---WI-----RAFV--APTSPLAPIVFTNPLISVIPR-------------
+tr|A0A1D7V787|A0A1D7V787_9GAMM  --------------------------------------------------
+tr|A0A0U2W691|A0A0U2W691_9BURK  ---FS-----NYIV--VPEIAVAKVRSDAPFDK-VCY-------------
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  ------------------------ISVGECLLKFILAY--FLIYIPS-DH
+tr|Q74LF6|Q74LF6_LACJO          -------------------------LE-------DKGL----ILVQK-RG
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  ------------------------ALI-----GLFAGL--IFNWLRTGRL
+tr|A0A2D7V787|A0A2D7V787_9BACT  -------------------------T------------------FGD-KH
+tr|G0M236|G0M236_LACPE          ------------------------ILI-----GVVAGW--IFIWFQK-RQ
+tr|A0A1G0M236|A0A1G0M236_9DELT  ------------------------AIL-----GS--RWLQKNRWLND-QL
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  ------------------------ILI-----GVVAGW--VFIWFNR-RH
+tr|F6IY87|F6IY87_LACPE          ------------------------ILI-----GVVAGW--IFIWFQK-RQ
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  ------------------------ILI-----GVVAGW--IFIWFQK-RQ
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  ------------------------VLI-----GVVAGW--TFIWWQR-RG
+tr|A0A0G0M236|A0A0G0M236_9BACT  RLVRSQTNSKDIFAPAILGFLTILIPC-----GVTQAM--ILLAIAT-GS
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  ------------------------ILV-----GLIAGW--IFIWFQK-RH
+tr|W6T8T8|W6T8T8_9LACO          ------------------------VLI-----GVVAGW--TFIWWQR-RG
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  ------------------------YFS-----QILAGQ--ILIQKEK---
+tr|A0A241RLN3|A0A241RLN3_LACPE  ------------------------ILI-----GVVAGW--IFIWFQK-RQ
+tr|A0A098R5K9|A0A098R5K9_9LACO  ------------------------ILV-----GLIAGW--IFIWFQK-RH
+tr|A0A1D7V787|A0A1D7V787_9GAMM  -------------------------------------------------Q
+tr|A0A0U2W691|A0A0U2W691_9BURK  ------------------------IGC-----GVTTGV--GAVVYSA-KV
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  LVFYGLGLLIIQSIHFLAYYVTARNGCGTFHYRRKVEKTLYKQLISFSGW
+tr|Q74LF6|Q74LF6_LACJO          --------------------------------------------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  --------------------------------------------------
+tr|A0A2D7V787|A0A2D7V787_9BACT  --------------------------------------------------
+tr|G0M236|G0M236_LACPE          --------------------------------------------------
+tr|A0A1G0M236|A0A1G0M236_9DELT  --------------------------------------------------
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  --------------------------------------------------
+tr|F6IY87|F6IY87_LACPE          --------------------------------------------------
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  --------------------------------------------------
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  --------------------------------------------------
+tr|A0A0G0M236|A0A0G0M236_9BACT  --------------------------------------------------
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  --------------------------------------------------
+tr|W6T8T8|W6T8T8_9LACO          --------------------------------------------------
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  --------------------------------------------------
+tr|A0A241RLN3|A0A241RLN3_LACPE  --------------------------------------------------
+tr|A0A098R5K9|A0A098R5K9_9LACO  --------------------------------------------------
+tr|A0A1D7V787|A0A1D7V787_9GAMM  --------------------------------------------------
+tr|A0A0U2W691|A0A0U2W691_9BURK  --------------------------------------------------
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  TLFSSSASVGISQLVTMITNVFFGPVVNAAR-----------------AI
+tr|Q74LF6|Q74LF6_LACJO          --------------------------------------------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  -----------------------------PK-----------------PV
+tr|A0A2D7V787|A0A2D7V787_9BACT  -----------------------------HW-----------------GF
+tr|G0M236|G0M236_LACPE          -----------------------------HR-----------------TL
+tr|A0A1G0M236|A0A1G0M236_9DELT  -----------------------------QRLHYNTTDAGEEFFERLNNV
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  -----------------------------KA-----------------EL
+tr|F6IY87|F6IY87_LACPE          -----------------------------HR-----------------TL
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  -----------------------------HR-----------------TL
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  -----------------------------KQ-----------------ML
+tr|A0A0G0M236|A0A0G0M236_9BACT  -----------------------------PL-----------------FG
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  -----------------------------QK-----------------VL
+tr|W6T8T8|W6T8T8_9LACO          -----------------------------KQ-----------------ML
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  --------------------------------------------------
+tr|A0A241RLN3|A0A241RLN3_LACPE  -----------------------------HR-----------------TL
+tr|A0A098R5K9|A0A098R5K9_9LACO  -----------------------------QK-----------------VL
+tr|A0A1D7V787|A0A1D7V787_9GAMM  -----------------------------TR-----------------KI
+tr|A0A0U2W691|A0A0U2W691_9BURK  -----------------------------EA-----------------GA
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  AFQMNSAMNSF------------------------TGNIIMAIRPPMIKQ
+tr|Q74LF6|Q74LF6_LACJO          --------------------------------------------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  SMLIASLVGAL------------------------TNT------------
+tr|A0A2D7V787|A0A2D7V787_9BACT  CFD-----------------------------------------------
+tr|G0M236|G0M236_LACPE          GFTLAGVAGAL------------------------TNT------------
+tr|A0A1G0M236|A0A1G0M236_9DELT  GLHQRDVR-EV------------------------YYL------------
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  GLTLAGIAGSL------------------------TNT------------
+tr|F6IY87|F6IY87_LACPE          GFTLAGVAGAL------------------------TNT------------
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  GFTLAGVAGAL------------------------TNT------------
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  GLTLAGIAGSL------------------------TNT------------
+tr|A0A0G0M236|A0A0G0M236_9BACT  GLTLGAFILGTTPVFFGLGLASNQILQRKSLKFVAASA------------
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  GLTLAGVAGAL------------------------VNT------------
+tr|W6T8T8|W6T8T8_9LACO          GLTLAGIAGSL------------------------TNT------------
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  ------ISGRK------------------------DRS------------
+tr|A0A241RLN3|A0A241RLN3_LACPE  GFTLAGVAGAL------------------------TNT------------
+tr|A0A098R5K9|A0A098R5K9_9LACO  GLTLAGVAGAL------------------------VNT------------
+tr|A0A1D7V787|A0A1D7V787_9GAMM  ATSQESVVGT----------------------------------------
+tr|A0A0U2W691|A0A0U2W691_9BURK  NVVVFGLGGIG------------------------LNV------------
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  YAEGDYEKVKRYFNFSNKTIFYSFLLIILPIYLEMETVLRVWLDVSDKQT
+tr|Q74LF6|Q74LF6_LACJO          --------------------------------------------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  --------------------------------------------------
+tr|A0A2D7V787|A0A2D7V787_9BACT  --------------------------------------------------
+tr|G0M236|G0M236_LACPE          --------------------------------------------------
+tr|A0A1G0M236|A0A1G0M236_9DELT  --------------------------------------------------
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  --------------------------------------------------
+tr|F6IY87|F6IY87_LACPE          --------------------------------------------------
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  --------------------------------------------------
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  --------------------------------------------------
+tr|A0A0G0M236|A0A0G0M236_9BACT  --------------------------------------------------
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  --------------------------------------------------
+tr|W6T8T8|W6T8T8_9LACO          --------------------------------------------------
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  --------------------------------------------------
+tr|A0A241RLN3|A0A241RLN3_LACPE  --------------------------------------------------
+tr|A0A098R5K9|A0A098R5K9_9LACO  --------------------------------------------------
+tr|A0A1D7V787|A0A1D7V787_9GAMM  --------------------------------------------------
+tr|A0A0U2W691|A0A0U2W691_9BURK  --------------------------------------------------
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  VLFCRLILIYAIVLSLNNPIAIIVQATGNIRAYSTYVEIPTLLCFPIT--
+tr|Q74LF6|Q74LF6_LACJO          --------------------------------------------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  -----------------------------------------LLVLGLI--
+tr|A0A2D7V787|A0A2D7V787_9BACT  -----------------------------------------------L--
+tr|G0M236|G0M236_LACPE          -----------------------------------------ILVLGLI--
+tr|A0A1G0M236|A0A1G0M236_9DELT  -----------------------------------------CLSLGFT--
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  -----------------------------------------ILVLGLI--
+tr|F6IY87|F6IY87_LACPE          -----------------------------------------ILVLGLI--
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  -----------------------------------------FLVLGLI--
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  -----------------------------------------ILVLGLI--
+tr|A0A0G0M236|A0A0G0M236_9BACT  -----------------------------------------ILILALI--
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  -----------------------------------------ILVLGLI--
+tr|W6T8T8|W6T8T8_9LACO          -----------------------------------------ILVLGLI--
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  -----------------------------------------LLLKNDT--
+tr|A0A241RLN3|A0A241RLN3_LACPE  -----------------------------------------ILVLGLI--
+tr|A0A098R5K9|A0A098R5K9_9LACO  -----------------------------------------ILVLGLI--
+tr|A0A1D7V787|A0A1D7V787_9GAMM  --------------------------------------------------
+tr|A0A0U2W691|A0A0U2W691_9BURK  -----------------------------------------IQGAKMVGA
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  -------------------------------------------WLLY---
+tr|Q74LF6|Q74LF6_LACJO          --------------------------------------------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  -------------------------------------------YLFY---
+tr|A0A2D7V787|A0A2D7V787_9BACT  -------------------------------------------GLVY---
+tr|G0M236|G0M236_LACPE          -------------------------------------------GLLY---
+tr|A0A1G0M236|A0A1G0M236_9DELT  -------------------------------------------GR-Y---
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  -------------------------------------------GTLY---
+tr|F6IY87|F6IY87_LACPE          -------------------------------------------GLLY---
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  -------------------------------------------GLLY---
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  -------------------------------------------GTLY---
+tr|A0A0G0M236|A0A0G0M236_9BACT  -------------------------------------------SINTGQV
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  -------------------------------------------GLLY---
+tr|W6T8T8|W6T8T8_9LACO          -------------------------------------------GTLY---
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  -------------------------------------------HQLI---
+tr|A0A241RLN3|A0A241RLN3_LACPE  -------------------------------------------GLLY---
+tr|A0A098R5K9|A0A098R5K9_9LACO  -------------------------------------------GLLY---
+tr|A0A1D7V787|A0A1D7V787_9GAMM  --------------------------------------------------
+tr|A0A0U2W691|A0A0U2W691_9BURK  DKIIGVDINPGRVELAKKFGMTHFINPNDVENVVDTIVQLTDGGADY---
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  ------------------------A-IGQPAEAAFYVM-IGAIMTSHVIR
+tr|Q74LF6|Q74LF6_LACJO          -------------------------------KWHYYS-------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  ------------------------RTP---QVAAAYQ-------------
+tr|A0A2D7V787|A0A2D7V787_9BACT  ------------------------S-G---SPKASLMV------------
+tr|G0M236|G0M236_LACPE          ------------------------S-H---QAAGFYQ-------------
+tr|A0A1G0M236|A0A1G0M236_9DELT  ------------------------C-H---PGDEY---------------
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  ------------------------Q-H---QAAGFYQ-------------
+tr|F6IY87|F6IY87_LACPE          ------------------------S-H---QAAGFYQ-------------
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  ------------------------S-H---QAAGFYQ-------------
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  ------------------------A-D---RAAGFYK-------------
+tr|A0A0G0M236|A0A0G0M236_9BACT  LRGSIHTFQNYWVALTGEIEPSEIS-A---QVAGLNS-------------
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  ------------------------R-H---QAAGFYQ-------------
+tr|W6T8T8|W6T8T8_9LACO          ------------------------A-D---RAAGFYK-------------
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  ------------------------D-K---K-HSKAK-------------
+tr|A0A241RLN3|A0A241RLN3_LACPE  ------------------------S-H---QAAGFYQ-------------
+tr|A0A098R5K9|A0A098R5K9_9LACO  ------------------------R-H---QAAGFYQ-------------
+tr|A0A1D7V787|A0A1D7V787_9GAMM  --------------------------------------------------
+tr|A0A0U2W691|A0A0U2W691_9BURK  ------------------------S-F---ECIGNVTTMRQALECCHKGW
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  LICLKRLFSLFSYKEYVVDFILPALGVLSVMFFVEYAIHM----------
+tr|Q74LF6|Q74LF6_LACJO          ---------------------------------------L----------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  ---------------------------------------T----------
+tr|A0A2D7V787|A0A2D7V787_9BACT  --------------------------------------------------
+tr|G0M236|G0M236_LACPE          ---------------------------------------I----------
+tr|A0A1G0M236|A0A1G0M236_9DELT  ----------------------------------------------HL--
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  ---------------------------------------V----------
+tr|F6IY87|F6IY87_LACPE          ---------------------------------------I----------
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  ---------------------------------------I----------
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  ---------------------------------------V----------
+tr|A0A0G0M236|A0A0G0M236_9BACT  ---------------------------------------K----------
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  ---------------------------------------V----------
+tr|W6T8T8|W6T8T8_9LACO          ---------------------------------------V----------
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  ---------------------------------------C----------
+tr|A0A241RLN3|A0A241RLN3_LACPE  ---------------------------------------I----------
+tr|A0A098R5K9|A0A098R5K9_9LACO  ---------------------------------------V----------
+tr|A0A1D7V787|A0A1D7V787_9GAMM  --------------------------------------------------
+tr|A0A0U2W691|A0A0U2W691_9BURK  GQSFIIGVAAAGQEISTRPFQLVTGREWKGSAFGGARGRTDVPKIVDWYM
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  ----C-------------------IHVILCRLI-------AMFVAG----
+tr|Q74LF6|Q74LF6_LACJO          ----N-------------------PEK-----S-------T-VIIN----
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  ----N-------------------ISGLMKVLL-------VVVATN----
+tr|A0A2D7V787|A0A2D7V787_9BACT  ----D-------------------PTAGMTAAL-------TA--DV----
+tr|G0M236|G0M236_LACPE          ----N-------------------LSKLMPYLL-------AVVASN----
+tr|A0A1G0M236|A0A1G0M236_9DELT  -EQIK-------------------SSNLKLLLG-------SPVGLP----
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  ----D-------------------LSKLMPYLL-------TIVGTN----
+tr|F6IY87|F6IY87_LACPE          ----N-------------------LSKLMPYLL-------AVVASN----
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  ----N-------------------LSKLMPYLL-------AVVASN----
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  ----D-------------------LTKLMPYLL-------TIVGIN----
+tr|A0A0G0M236|A0A0G0M236_9BACT  ----GVQEVEIVVSGNGYHSSAQVLKAGVPVAL-------SLITQNTKGC
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  ----N-------------------LSKLMPYLL-------TIVASN----
+tr|W6T8T8|W6T8T8_9LACO          ----D-------------------LTKLMPYLL-------TIVGIN----
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  ----T-------------------MGETIEFSL-------FIYAQE----
+tr|A0A241RLN3|A0A241RLN3_LACPE  ----N-------------------LSKLMPYLL-------AVVASN----
+tr|A0A098R5K9|A0A098R5K9_9LACO  ----N-------------------LSKLMPYLL-------TIVASN----
+tr|A0A1D7V787|A0A1D7V787_9GAMM  --QVK-------------------LSDAQARLMQPNSRDINTTRVE----
+tr|A0A0U2W691|A0A0U2W691_9BURK  EGKIN-------------------IDDLITHTL-------RLDQIN----
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  ----GI------TMIILCSIGGFSKF---EREALISLLKLNRFFPR-G--
+tr|Q74LF6|Q74LF6_LACJO          ----GL------TEVLSN-------------SE------NCICKDA----
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  ----GI------PEAILAGIVG--PL---ISLP---L---QRFR---R--
+tr|A0A2D7V787|A0A2D7V787_9BACT  ----KK------EEADLQESLD--DF---EWWP---V---LSAGLVYQ--
+tr|G0M236|G0M236_LACPE          ----GV------PEAILAGILT--PL---IGTP---L---LRFKK--A--
+tr|A0A1G0M236|A0A1G0M236_9DELT  ----QIEGADLFPEAHPSG------------DP------ELAGQKSRAGS
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  ----GV------PEAILAGVLT--PL---IGTA---L---LRFKHK-S--
+tr|F6IY87|F6IY87_LACPE          ----GV------PEAILAGILT--PL---IGTP---L---LRFKK--A--
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  ----GV------PEAILAGILT--PL---IGTP---L---LRFKK--A--
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  ----GV------PEAILAGILV--PL---IGMP---L---LRFQRKNK--
+tr|A0A0G0M236|A0A0G0M236_9BACT  SRAFTI------PEYNITKIL---PE---TGTQ------SVEFTPTRR--
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  ----GI------PEAILAGILT--PL---IGTP---L---LRFKK-----
+tr|W6T8T8|W6T8T8_9LACO          ----GV------PEAILAGILV--PL---IGMP---L---LRFQRKNK--
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  ----NL-----TSEELKMNDLN--A----WNIT---Y---RRVRK-----
+tr|A0A241RLN3|A0A241RLN3_LACPE  ----GV------PEAILAGILT--PL---IGTP---L---LRFKK--A--
+tr|A0A098R5K9|A0A098R5K9_9LACO  ----GI------PEAILAGILT--PL---IGTP---L---LRFKK-----
+tr|A0A1D7V787|A0A1D7V787_9GAMM  ----AL------KQAIRSGELK--MDTGKIADA------LLQDTFA----
+tr|A0A0U2W691|A0A0U2W691_9BURK  ----EGFDLMKRGESIRSVVLY----------------------------
+                                                                                  
+
+tr|A0A1T5JTW1|A0A1T5JTW1_9BACT  ---------------------------------------
+tr|Q74LF6|Q74LF6_LACJO          ---------------------------------------
+tr|A0A0R1GF26|A0A0R1GF26_9LACO  ---------------------------------------
+tr|A0A2D7V787|A0A2D7V787_9BACT  --------------F------------------------
+tr|G0M236|G0M236_LACPE          ---------------------------------------
+tr|A0A1G0M236|A0A1G0M236_9DELT  RLVAAVCLAAPVLLFCILYLIYHFTLSGISDNFLRTVTN
+tr|A0A0R2MCQ1|A0A0R2MCQ1_9LACO  ---------------------------------------
+tr|F6IY87|F6IY87_LACPE          ---------------------------------------
+tr|A0A2K9I2Z8|A0A2K9I2Z8_LACPE  ---------------------------------------
+tr|A0A0R2NVQ1|A0A0R2NVQ1_9LACO  ---------------------------------------
+tr|A0A0G0M236|A0A0G0M236_9BACT  --------------GRLSYTCSMGMYTGYFEVI------
+tr|A0A0R1QYB2|A0A0R1QYB2_9LACO  ---------------------------------------
+tr|W6T8T8|W6T8T8_9LACO          ---------------------------------------
+tr|A0A0F6IY87|A0A0F6IY87_BACTU  ---------------------------------------
+tr|A0A241RLN3|A0A241RLN3_LACPE  ---------------------------------------
+tr|A0A098R5K9|A0A098R5K9_9LACO  ---------------------------------------
+tr|A0A1D7V787|A0A1D7V787_9GAMM  -------------YLKD---------------------K
+tr|A0A0U2W691|A0A0U2W691_9BURK  ---------------------------------------
+                                                                       
+
+
+

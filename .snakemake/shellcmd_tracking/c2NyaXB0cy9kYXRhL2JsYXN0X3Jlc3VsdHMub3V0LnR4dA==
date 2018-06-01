@@ -1,0 +1,1 @@
+perl scripts/ncbiblast_lwp.pl --email r.beeloo@outlook.com --sequence scripts/data/sequence.fasta --database uniprotkb_bacteria --stype protein --program blastp --align 7 --alignments 250 --outfile scripts/data/blast_results

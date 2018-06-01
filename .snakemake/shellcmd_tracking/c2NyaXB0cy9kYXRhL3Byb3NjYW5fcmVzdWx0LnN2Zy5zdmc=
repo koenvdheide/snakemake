@@ -1,0 +1,1 @@
+scripts/iprscan5_urllib3.py --email r.beeloo@outlook.com --outfile scripts/data/proscan_result --sequence scripts/data/sequence.fasta

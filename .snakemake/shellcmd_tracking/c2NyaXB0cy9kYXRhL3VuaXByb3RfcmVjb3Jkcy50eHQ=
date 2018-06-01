@@ -1,0 +1,2 @@
+query=$(python3 scripts/formatter.py scripts/data/significant_gene_ids.txt '+OR+' q)
+wget "http://www.uniprot.org/uniprot/?query=$query&format=tab&columns=id,entry%20name,protein%20names,ec,organism,organism-id,genes,comment(PATHWAY),go(biological process),database(kegg)" --output-document scripts/data/uniprot_records.txt

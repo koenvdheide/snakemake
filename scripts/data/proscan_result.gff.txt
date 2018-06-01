@@ -1,0 +1,79 @@
+##gff-version 3
+##feature-ontology http://song.cvs.sourceforge.net/viewvc/song/ontology/sofa.obo?revision=1.269
+##interproscan-version 5.29-68.0
+##sequence-region tr|F9UMS9|F9UMS9_LACPL 1 193
+tr|F9UMS9|F9UMS9_LACPL	.	polypeptide	1	193	.	+	.	ID=tr|F9UMS9|F9UMS9_LACPL;md5=6d2d6d6f293d1c62fed1dc75f1e7669c
+tr|F9UMS9|F9UMS9_LACPL	TMHMM	protein_match	7	26	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 7 26;ID=match$1_7_26;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+tr|F9UMS9|F9UMS9_LACPL	TMHMM	protein_match	121	143	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 121 143;ID=match$2_121_143;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+tr|F9UMS9|F9UMS9_LACPL	TMHMM	protein_match	158	180	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 158 180;ID=match$3_158_180;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+tr|F9UMS9|F9UMS9_LACPL	TMHMM	protein_match	31	53	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 31 53;ID=match$4_31_53;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+tr|F9UMS9|F9UMS9_LACPL	TMHMM	protein_match	58	75	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 58 75;ID=match$5_58_75;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	7	26	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 7 26;ID=match$6_7_26;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	1	6	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 1 6;ID=match$7_1_6;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	185	193	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 185 193;ID=match$8_185_193;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	79	89	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 79 89;ID=match$9_79_89;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	60	78	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 60 78;ID=match$10_60_78;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+tr|F9UMS9|F9UMS9_LACPL	TMHMM	protein_match	90	109	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 90 109;ID=match$11_90_109;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	111	116	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 111 116;ID=match$12_111_116;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	161	184	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 161 184;ID=match$13_161_184;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+tr|F9UMS9|F9UMS9_LACPL	Gene3D	protein_match	2	193	7.1E-57	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 2 193;ID=match$14_2_193;Name=G3DSA:1.10.1760.20;status=T
+tr|F9UMS9|F9UMS9_LACPL	Pfam	protein_match	12	185	1.4E-26	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 12 185;Ontology_term="GO:0005215";ID=match$15_12_185;signature_desc=ECF transporter, substrate-specific component;Name=PF12822;status=T;Dbxref="InterPro:IPR024529"
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	117	141	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 117 141;ID=match$16_117_141;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	54	59	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 54 59;ID=match$17_54_59;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	142	160	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 142 160;ID=match$18_142_160;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	27	31	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 27 31;ID=match$19_27_31;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	90	110	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 90 110;ID=match$20_90_110;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+tr|F9UMS9|F9UMS9_LACPL	Phobius	protein_match	32	53	.	+	.	date=01-06-2018;Target=tr|F9UMS9|F9UMS9_LACPL 32 53;ID=match$21_32_53;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+##FASTA
+>tr|F9UMS9|F9UMS9_LACPL
+MQRRSNAYHISVLAVLMAIVIIQNIVPFFGYIPLPGLSITTIHVTVILAAVVLGPRDGAI
+IGGAWGIIAWIRAFVAPTSPLAPIVFTNPLISVIPRILVGLIAGWVFIWFQKRHQKVLGM
+TLAGVAGALTNTILVLGLIGLLYSHQAAGFYQVNLSKLMPYLLTIVASNGIPEAILAGIL
+TPLIGTPLLRFKK
+>match$1_7_26
+AYHISVLAVLMAIVIIQNIV
+>match$2_121_143
+TLAGVAGALTNTILVLGLIGLLY
+>match$3_158_180
+LMPYLLTIVASNGIPEAILAGIL
+>match$4_31_53
+YIPLPGLSITTIHVTVILAAVVL
+>match$5_58_75
+GAIIGGAWGIIAWIRAFV
+>match$6_7_26
+AYHISVLAVLMAIVIIQNIV
+>match$7_1_6
+MQRRSN
+>match$8_185_193
+GTPLLRFKK
+>match$9_79_89
+SPLAPIVFTNP
+>match$10_60_78
+IIGGAWGIIAWIRAFVAPT
+>match$11_90_109
+LISVIPRILVGLIAGWVFIW
+>match$12_111_116
+QKRHQK
+>match$13_161_184
+YLLTIVASNGIPEAILAGILTPLI
+>match$14_2_193
+QRRSNAYHISVLAVLMAIVIIQNIVPFFGYIPLPGLSITTIHVTVILAAVVLGPRDGAII
+GGAWGIIAWIRAFVAPTSPLAPIVFTNPLISVIPRILVGLIAGWVFIWFQKRHQKVLGMT
+LAGVAGALTNTILVLGLIGLLYSHQAAGFYQVNLSKLMPYLLTIVASNGIPEAILAGILT
+PLIGTPLLRFKK
+>match$15_12_185
+VLAVLMAIVIIQNIVPFFGYIPLPGLSITTIHVTVILAAVVLGPRDGAIIGGAWGIIAWI
+RAFVAPTSPLAPIVFTNPLISVIPRILVGLIAGWVFIWFQKRHQKVLGMTLAGVAGALTN
+TILVLGLIGLLYSHQAAGFYQVNLSKLMPYLLTIVASNGIPEAILAGILTPLIG
+>match$16_117_141
+VLGMTLAGVAGALTNTILVLGLIGL
+>match$17_54_59
+GPRDGA
+>match$18_142_160
+LYSHQAAGFYQVNLSKLMP
+>match$19_27_31
+PFFGY
+>match$20_90_110
+LISVIPRILVGLIAGWVFIWF
+>match$21_32_53
+IPLPGLSITTIHVTVILAAVVL

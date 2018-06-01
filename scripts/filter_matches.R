@@ -36,6 +36,6 @@ write.table(matches, file = snakemake@output[[1]], sep = '\t',
 # Saving significant ids
 ######################################################################
 cat('[INFO] Saving significant IDs\n')
-match.ids <- matches$subjectid
+match.ids <- unlist(lapply(as.character(matches$subjectacc.ver), FUN = function(x) {unlist(strsplit(x,":"))[2]}))
 write.table(data.frame(match.ids), file = snakemake@output[[2]], col.names = F,
             row.names = F, quote = F)

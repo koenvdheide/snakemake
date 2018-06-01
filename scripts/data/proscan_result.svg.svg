@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<svg xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.w3.org/2000/svg"
+     id="svgProteinView"
+     viewBox="0 0 1280 780"
+     version="1.1">
+
+<style type="text/css">
+<![CDATA[
+/*Colours for entries of type domain and repeat.*/
+/*  TYPE Family , site, unintegrated */
+
+.Homologous_superfamily {
+    fill: #399fc7;
+}
+
+.Family {
+    fill: #ffffff;
+}
+
+.Active_site, .Binding_site, .Conserved_site, .PTM, .SITE {
+    fill: #000000;
+}
+
+.uni {
+    fill: #a5a5a5;
+}
+
+    /*  TYPE domain & repeat */
+rect.c1 {
+    fill: #b852d4;
+}
+
+rect.c2 {
+    fill: #00baf0;
+}
+
+rect.c3 {
+    fill: #ff0000;
+}
+
+rect.c4 {
+    fill: #33cc33;
+}
+
+rect.c5 {
+    fill: #ffde00;
+}
+
+rect.c6 {
+    fill: #ffa99e;
+}
+
+rect.c7 {
+    fill: #c571ff;
+}
+
+rect.c8 {
+    fill: #ff9000;
+}
+
+rect.c9 {
+    fill: #c69c6d;
+}
+
+rect.c10 {
+    fill: #ededed;
+}
+
+rect.c11 {
+    fill: #1e82d4;
+}
+
+rect.c12 {
+    fill: #a1e42d;
+}
+
+rect.c13 {
+    fill: #ffff00;
+}
+
+rect.c14 {
+    fill: #cf161d;
+}
+
+rect.c15 {
+    fill: #ff6000;
+}
+
+rect.c16 {
+    fill: #1cbbb4;
+}
+
+rect.c17 {
+    fill: #e354e3;
+}
+
+rect.c18 {
+    fill: #cbcbcb;
+}
+
+rect.c19 {
+    fill: #92acd1
+}
+
+rect.c20 {
+    fill: #a66c32;
+}
+
+rect.c21 {
+    fill: #0000ff;
+}
+
+rect.c22 {
+    fill: #0ff7fa;
+}
+
+rect.c23 {
+    fill: #ecd66d;
+}
+
+rect.c24 {
+    fill: #ffa8fd;
+}
+
+rect.c25 {
+    fill: #9306ff;
+}
+
+rect.c26 {
+    fill: #998675;
+}
+
+rect.c27 {
+    fill: #c3b8f0;
+}
+
+rect.c28 {
+    fill: #7db7ff;
+}
+
+rect.c29 {
+    fill: #00984a
+}
+
+rect.c30 {
+    fill: #bedbfe;
+}
+
+rect.c31 {
+    fill: #ffdfdf;
+}
+
+rect.c32 {
+    fill: #cde6a8;
+}
+
+rect.c33 {
+    fill: #fffdcc;
+}
+
+rect.c34 {
+    fill: #e6e4a8;
+}
+
+rect.c35 {
+    fill: #d5a8e6;
+}
+
+rect.c36 {
+    fill: #e6c4a8;
+}
+
+rect.c37 {
+    fill: #82ca9c;
+}
+
+rect.c38 {
+    fill: #dfffdc;
+}
+
+rect.c39 {
+    fill: #c3b3a1;
+}
+
+rect.c40 {
+    fill: #e7e1ff;
+}
+
+rect.c41 {
+    fill: #950e0e;
+}
+
+rect.c42 {
+    fill: #005e20;
+}
+
+rect.c43 {
+    fill: #a2a420;
+}
+
+rect.c44 {
+    fill: #e8ffa2;
+}
+
+rect.c45 {
+    fill: #ff00ff;
+}
+
+rect.c46 {
+    fill: #604036;
+}
+
+rect.c47 {
+    fill: #717171;
+}
+
+rect.c48 {
+    fill: #6af0a6;
+}
+
+rect.c49 {
+    fill: #5d8ca2;
+}
+
+rect.c50 {
+    fill: #6e2e9d;
+}
+
+rect.c51 {
+    fill: #e56251;
+}
+
+rect.c52 {
+    fill: #a6ff46;
+}
+
+rect.c53 {
+    fill: #bf6b66;
+}
+
+rect.c54 {
+    fill: #6d4afe;
+}
+
+rect.c55 {
+    fill: #a186be;
+}
+
+rect.c56 {
+    fill: #c5209c;
+}
+
+rect.c57 {
+    fill: #d28428;
+}
+
+rect.c58 {
+    fill: #86a185;
+}
+
+rect.c59 {
+    fill: #ffc000;
+}
+
+rect.c60 {
+    fill: #90deda;
+}
+
+rect.c61 {
+    fill: #ffddb2;
+}
+
+]]>
+</style>
+    <title>tr|F9UMS9|F9UMS9_LACPL</title>
+
+    <desc>Auto-generated SVG file produced by InterProScan 5.
+        Tested successfully on the following browsers:
+        *Mozilla Firefox for Ubuntu Version 15.0.1
+        *Chrome/Chromium Version 20.0.1132.47 Ubuntu 12.04
+        *Safari ?
+        *IE ?
+    </desc>
+<defs id="protein_view_defs">
+    <polygon id="blackArrowComponent" points="0,2  8,6  0,10"
+             style="stroke:#660000; fill:black;"/>
+    <svg id="ico_type_homologous_superfamily_small" width="11" height="11" viewBox="0 0 72 72">
+        <defs>
+            <linearGradient id="h-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#6caed4" />
+                <stop offset="100%" style="stop-color:#379ec7" />
+            </linearGradient>
+        </defs>
+        <rect
+                x="4" y="4"
+                width="60" height="60"
+                stroke-width="2"
+                stroke="#0886c0"
+                fill="url(#h-gradient)"
+                rx="10"
+                ry="10"
+        />
+        <text
+                x="50%" y="50%"
+                text-anchor="middle"
+                dx="-1px" dy="20px"
+                style="
+               fill: white;
+               font-size: 60px;
+               font-weight:bold;
+               font-family:Arial;
+               ">
+            H
+        </text>
+    </svg>
+
+    <svg id="ico_type_family_small" width="11" height="11" viewBox="0 0 100 106">
+        <g>
+            <linearGradient id="family_gradient" gradientUnits="userSpaceOnUse" x1="50.0942" y1="102.2583"
+                            x2="50.0942" y2="3.5391">
+                <stop offset="0" style="stop-color:#D21614"/>
+                <stop offset="1" style="stop-color:#FF3603"/>
+            </linearGradient>
+            <path fill="url(#family_gradient)" d="M16.923,102.258c-8.969,0-16.265-6.863-16.265-15.3V18.841c0-8.438,7.296-15.302,16.265-15.302
+			h66.341c8.969,0,16.266,6.865,16.266,15.302v68.118c0,8.437-7.297,15.3-16.266,15.3H16.923z"/>
+            <path fill="#B00D0C" d="M83.265,4.039c8.693,0,15.766,6.64,15.766,14.802v68.118c0,8.16-7.072,14.8-15.766,14.8H16.923
+			c-8.693,0-15.765-6.64-15.765-14.8V18.841c0-8.162,7.072-14.802,15.765-14.802H83.265 M83.265,3.039H16.923
+			c-9.26,0-16.765,7.073-16.765,15.802v68.118c0,8.723,7.505,15.8,16.765,15.8h66.341c9.258,0,16.766-7.077,16.766-15.8V18.841
+			C100.03,10.111,92.522,3.039,83.265,3.039L83.265,3.039z"/>
+        </g>
+        <text transform="matrix(1 0 0 1 23.4287 86.6528)" fill="#FFFFFF" font-family="Verdana, Helvetica, sans-serif"
+              font-size="93.9316">F
+        </text>
+    </svg>
+    <svg id="ico_type_domain_small" width="11" height="11" viewBox="0 0 100 106">
+        <g>
+            <linearGradient id="domain_gradient" gradientUnits="userSpaceOnUse" x1="50.0315" y1="3.7998"
+                            x2="50.0315" y2="102.729" gradientTransform="matrix(1 0 0 -1 0.0449 106.0391)">
+                <stop offset="0" style="stop-color:#54B533"/>
+                <stop offset="1" style="stop-color:#4FD624"/>
+            </linearGradient>
+            <path fill="url(#domain_gradient)" d="M16.837,102.239c-8.987,0-16.3-6.878-16.3-15.333v-68.26c0-8.456,7.313-15.336,16.3-15.336h66.481
+			c8.987,0,16.299,6.88,16.299,15.336v68.26c0,8.455-7.312,15.333-16.299,15.333H16.837z"/>
+            <path fill="#34A218" d="M83.318,3.81c8.712,0,15.799,6.655,15.799,14.836v68.26c0,8.179-7.087,14.833-15.799,14.833H16.837
+				c-8.712,0-15.8-6.654-15.8-14.833v-68.26c0-8.181,7.088-14.836,15.8-14.836H83.318 M83.318,2.81H16.837
+				c-9.279,0-16.8,7.087-16.8,15.836v68.26c0,8.742,7.521,15.833,16.8,15.833h66.481c9.274,0,16.799-7.091,16.799-15.833v-68.26
+				C100.117,9.897,92.594,2.81,83.318,2.81L83.318,2.81z"/>
+        </g>
+        <text transform="matrix(1 0 0 1 18.1262 88.5439)" fill="#FFFFFF" font-family="Verdana, Helvetica, sans-serif"
+              font-size="94.1286">D
+        </text>
+    </svg>
+    <svg id="ico_type_uni_small" width="11" height="11" viewBox="0 0 100 106">
+        <g>
+            <linearGradient id="uni_gradient" gradientUnits="userSpaceOnUse" x1="50.0273" y1="102.2642" x2="50.0273"
+                            y2="3.3105">
+                <stop offset="0" style="stop-color:#8E8E8E"/>
+                <stop offset="1" style="stop-color:#A0A0A0"/>
+            </linearGradient>
+            <path fill="url(#uni_gradient)" d="M16.777,102.264c-8.989,0-16.302-6.88-16.302-15.337V18.65c0-8.458,7.313-15.34,16.302-15.34h66.505
+		c8.986,0,16.297,6.881,16.297,15.34v68.277c0,8.457-7.311,15.337-16.297,15.337H16.777z"/>
+            <g>
+                <path fill="#595E63" d="M83.282,3.81c8.71,0,15.797,6.657,15.797,14.84v68.277c0,8.181-7.087,14.837-15.797,14.837H16.777
+			c-8.713,0-15.802-6.656-15.802-14.837V18.65c0-8.183,7.089-14.84,15.802-14.84H83.282 M83.282,2.81H16.777
+			c-9.276,0-16.802,7.089-16.802,15.84v68.277c0,8.745,7.526,15.837,16.802,15.837h66.505c9.271,0,16.797-7.092,16.797-15.837V18.65
+			C100.079,9.899,92.554,2.81,83.282,2.81L83.282,2.81z"/>
+            </g>
+        </g>
+        <text transform="matrix(1 0 0 1 19.7798 89.8755)" fill="#FFFFFF" font-family="Verdana, Helvetica, sans-serif"
+              font-size="94.1525">?
+        </text>
+    </svg>
+    <svg id="ico_type_protein" width="20" height="20" viewBox="0 0 100 106">
+        <g>
+            <linearGradient id="protein_type_gradient" gradientUnits="userSpaceOnUse" x1="50.0315" y1="3.7998"
+                            x2="50.0315"
+                            y2="102.729" gradientTransform="matrix(1 0 0 -1 0.0449 106.0391)">
+                <stop offset="0" style="stop-color:#02AEFF"/>
+                <stop offset="1" style="stop-color:#5BC3EA"/>
+            </linearGradient>
+            <path fill="url(#protein_type_gradient)" d="M16.837,102.239c-8.987,0-16.3-6.878-16.3-15.333v-68.26c0-8.456,7.313-15.336,16.3-15.336h66.481
+			c8.987,0,16.299,6.88,16.299,15.336v68.26c0,8.455-7.312,15.333-16.299,15.333H16.837z"/>
+            <path fill="#2E8EE5" d="M83.318,3.81c8.712,0,15.799,6.655,15.799,14.836v68.26c0,8.179-7.087,14.833-15.799,14.833H16.837
+				c-8.712,0-15.8-6.654-15.8-14.833v-68.26c0-8.181,7.088-14.836,15.8-14.836H83.318 M83.318,2.81H16.837
+				c-9.279,0-16.8,7.087-16.8,15.836v68.26c0,8.742,7.521,15.833,16.8,15.833h66.481c9.274,0,16.799-7.091,16.799-15.833v-68.26
+				C100.117,9.897,92.594,2.81,83.318,2.81L83.318,2.81z"/>
+            <text transform="matrix(1 0 0 1 22.0505 88.5439)" fill="#FFFFFF"
+                  font-family="Verdana, Helvetica, sans-serif"
+                  font-size="94.1286">P
+            </text>
+        </g>
+    </svg>
+    <svg id="ico_type_repeat_small" width="11" height="11" viewBox="0 0 100 106">
+        <g>
+            <linearGradient id="repeat_gradient" gradientUnits="userSpaceOnUse" x1="50.0315" y1="3.7998" x2="50.0315"
+                            y2="102.729" gradientTransform="matrix(1 0 0 -1 0.0449 106.0391)">
+                <stop offset="0" style="stop-color:#F66D1C"/>
+                <stop offset="0.9879" style="stop-color:#FFB001"/>
+            </linearGradient>
+            <path fill="url(#repeat_gradient)" d="M16.837,102.239c-8.987,0-16.3-6.878-16.3-15.333v-68.26c0-8.456,7.313-15.336,16.3-15.336h66.481
+			c8.987,0,16.299,6.88,16.299,15.336v68.26c0,8.455-7.312,15.333-16.299,15.333H16.837z"/>
+            <path fill="#B27015" d="M83.318,3.81c8.712,0,15.799,6.655,15.799,14.836v68.26c0,8.179-7.087,14.833-15.799,14.833H16.837
+				c-8.712,0-15.8-6.654-15.8-14.833v-68.26c0-8.181,7.088-14.836,15.8-14.836H83.318 M83.318,2.81H16.837
+				c-9.279,0-16.8,7.087-16.8,15.836v68.26c0,8.742,7.521,15.833,16.8,15.833h66.481c9.274,0,16.799-7.091,16.799-15.833v-68.26
+				C100.117,9.897,92.594,2.81,83.318,2.81L83.318,2.81z"/>
+            <text transform="matrix(1 0 0 1 16.8215 88.5439)" fill="#FFFFFF"
+                  font-family="Verdana, Helvetica, sans-serif"
+                  font-size="94.1286">R
+            </text>
+        </g>
+    </svg>
+    <svg id="ico_type_site_small" width="11" height="11" viewBox="0 0 100 106">
+        <g>
+            <linearGradient id="site_gradient" gradientUnits="userSpaceOnUse" x1="50.0315" y1="3.7998" x2="50.0315"
+                            y2="102.729" gradientTransform="matrix(1 0 0 -1 0.0449 106.0391)">
+                <stop offset="0" style="stop-color:#9F31C0"/>
+                <stop offset="1" style="stop-color:#CE6FE1"/>
+            </linearGradient>
+            <path fill="url(#site_gradient)" d="M16.837,102.239c-8.987,0-16.3-6.878-16.3-15.333v-68.26c0-8.456,7.313-15.336,16.3-15.336h66.481
+			c8.987,0,16.299,6.88,16.299,15.336v68.26c0,8.455-7.312,15.333-16.299,15.333H16.837z"/>
+            <path fill="#6312A1" d="M83.318,3.81c8.712,0,15.799,6.655,15.799,14.836v68.26c0,8.179-7.087,14.833-15.799,14.833H16.837
+				c-8.712,0-15.8-6.654-15.8-14.833v-68.26c0-8.181,7.088-14.836,15.8-14.836H83.318 M83.318,2.81H16.837
+				c-9.279,0-16.8,7.087-16.8,15.836v68.26c0,8.742,7.521,15.833,16.8,15.833h66.481c9.274,0,16.799-7.091,16.799-15.833v-68.26
+				C100.117,9.897,92.594,2.81,83.318,2.81L83.318,2.81z"/>
+            <text transform="matrix(1 0 0 1 19.4333 88.5439)" fill="#FFFFFF"
+                  font-family="Verdana, Helvetica, sans-serif"
+                  font-size="94.1286">S
+            </text>
+        </g>
+    </svg>
+</defs>
+    <rect id="background" x="0" y="0" width="1280" height="780"
+          style="fill: white;"></rect>
+    <rect id="mainBoxBorder"
+          x="30px" y="30px" width="1220"
+          height="745"
+          style="fill: white; stroke: lightGrey; stroke-width: 1;"></rect>
+        <text x="30px" y="20px" style="fill:#1897E9;font-family:Verdana,Helvetica,sans-serif;
+                             font-size:20">Protein
+    </text>
+
+<svg id="proteinInfo" x="30" y="30" width="1280" height="120"
+     viewBox="0 0 1280 120" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <text x="10px" y="25px">
+        <tspan x="10px" dy="10px" font-size="22" fill="#284ADB" font-family="Verdana, Helvetica, sans-serif"
+               font-weight="normal">
+        tr|F9UMS9|F9UMS9_LACPL
+        </tspan>
+    </text>
+    <text y="50px" font-size="13" font-family="Verdana, Helvetica, sans-serif">
+        <tspan font-weight="bold" x="10px" dy="30px" style="fill: #393939">
+            Length
+        </tspan>
+        <tspan x="10px" dx="100px" fill="#838383">193 amino acids
+        </tspan>
+    </text>
+
+    <line x1="10" y1="100" x2="1200" y2="100" stroke="#CDCDCD" stroke-width="1"/>
+</svg>
+
+<svg id="proteinFamilyTree" x="40" y="150" width="1200" height="78"
+     viewBox="0 0 1200 78">
+    <text y="13px" style="font-family:Verdana,Helvetica,sans-serif;font-size:13px">
+        <tspan style="fill:#393939;font-weight:bold">
+            Protein family membership
+        </tspan>
+    </text>
+<svg x="0px" y="24px"><path stroke="black" stroke-width="1" stroke-dasharray="1" d="M1,5 V10" /><path stroke="black" stroke-width="1" stroke-dasharray="1" d="M0.5,9.5 H6" /><use x="8" y="2" xlink:href="#ico_type_family_small"/><a xlink:href="http://www.ebi.ac.uk/interpro/entry/IPR024529" target="_top"><text x="24px" y="12px" text-decoration="underline"><tspan style="font-family:Verdana,Helvetica,sans-serif;font-size:13px;stroke:none;fill:#393939;">ECF transporter, substrate-specific component</tspan> <tspan style="font-family:Verdana,Helvetica,sans-serif;font-size:13px;stroke:none;fill:#0072FE;">(IPR024529)</tspan></text></a></svg>
+</svg>
+
+<svg id="summaryHSView" x="40" y="228" width="1200" height="70"
+     viewBox="0 0 1200 70">
+    <text y="13px" style="font-family:Verdana,Helvetica,sans-serif;font-size:13px">
+        <tspan style="fill:#393939;font-weight:bold">Homologous superfamilies</tspan>
+        <tspan dx="15" style="fill:#838383;font-size:13px">none</tspan>
+    </text>
+
+</svg>
+<svg id="summaryView" x="40" y="298" width="1200" height="70"
+     viewBox="0 0 1200 70">
+    <text y="13px" style="font-family:Verdana,Helvetica,sans-serif;font-size:13px">
+        <tspan style="fill:#393939;font-weight:bold">Domains and repeats</tspan>
+        <tspan dx="15" style="fill:#838383;font-size:13px">none</tspan>
+    </text>
+
+</svg>
+<svg id="sequenceFeatures" x="40" y="368">
+    <text y="13px"
+          style="fill:#393939;font-family:Verdana,Helvetica,sans-serif;font-size:13px;font-weight:bold">
+        Detailed signature matches
+    </text>
+    <svg y="30" width="1210" height="57"
+         viewBox="0 0 1210 57">
+<svg>
+    <rect x="1px" y="1px" width="110px" height="18"
+          style="stroke:#D8D8D8;fill:transparent;fill-opacity:0;stroke-width:0.5"/>
+
+    <use x="6" y="6" xlink:href="#ico_type_family_small"/>
+
+    <a xlink:href="http://www.ebi.ac.uk/interpro/entry/IPR024529" target="_top">
+    <text x="25px" y="15px" text-decoration="underline" style="font-family:Verdana,Helvetica,sans-serif;
+                             font-size:11px;stroke:none;fill:#0072FE">IPR024529</text>
+    </a>
+</svg>
+    <a xlink:href="http://www.ebi.ac.uk/interpro/entry/IPR024529" target="_top">
+    <text x="123px" y="14px" text-decoration="underline"
+          style="font-family:Verdana,Helvetica,sans-serif;
+                             font-size:13px;stroke:none;fill:#525252;">ECF transporter, substrate-specific component
+    </text>
+    </a>
+<svg x="123px" y="19px">
+<rect width="930.0px" height="17px" style="fill:#EFEFEF"/><line x1="0px" y1="0px" x2="0px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="96px" y1="0px" x2="96px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="193px" y1="0px" x2="193px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="289px" y1="0px" x2="289px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="385px" y1="0px" x2="385px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="482px" y1="0px" x2="482px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="578px" y1="0px" x2="578px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="675px" y1="0px" x2="675px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="771px" y1="0px" x2="771px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="867px" y1="0px" x2="867px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="930px" y1="0px" x2="930px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><rect class="Family" x="58px" y="5px" width="838px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>12 - 185 (PF12822)</title></rect>
+</svg>
+
+<svg x="1058px" y="20px">
+    <use xlink:href="#blackArrowComponent"/>
+    <text x="15px" y="10.5px" style="font-family:Verdana,Helvetica,sans-serif;stroke:none;">
+        <tspan style="text-decoration:underline;fill:#525252;font-size: 11px">
+            <a xlink:href="http://pfam.xfam.org/family/PF12822"
+               target="_top">
+                    <title>PF12822 (ECF_trnsprt)</title>
+PF12822
+            </a>
+        </tspan>
+            <tspan style="fill:#525252;font-size: 9px">
+(ECF_trnsprt)
+            </tspan>
+    </text>
+</svg>
+    </svg>
+    <svg id="unintegratedSignatures" y="87" width="1210"
+         height="125"
+         viewBox="0 0 1210 125">
+<svg>
+    <rect x="1px" y="1px" width="110px" height="18"
+          style="stroke:#D8D8D8;fill:transparent;fill-opacity:0;stroke-width:0.5"/>
+
+    <use x="6" y="6" xlink:href="#ico_type_uni_small"/>
+
+    <text x="25px" y="15px" text-decoration="none" style="font-family:Verdana,Helvetica,sans-serif;
+                             font-size:11px;stroke:none;fill:#525252">no IPR</text>
+</svg>
+    <text x="123px" y="14px" text-decoration="none"
+          style="font-family:Verdana,Helvetica,sans-serif;
+                             font-size:13px;stroke:none;fill:#525252;">Unintegrated signatures
+    </text>
+<svg x="123px" y="19px">
+<rect width="930.0px" height="17px" style="fill:#EFEFEF"/><line x1="0px" y1="0px" x2="0px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="96px" y1="0px" x2="96px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="193px" y1="0px" x2="193px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="289px" y1="0px" x2="289px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="385px" y1="0px" x2="385px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="482px" y1="0px" x2="482px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="578px" y1="0px" x2="578px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="675px" y1="0px" x2="675px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="771px" y1="0px" x2="771px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="867px" y1="0px" x2="867px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="930px" y1="0px" x2="930px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><rect class="uni" x="0px" y="5px" width="29px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>1 - 6 (CYTOPLASMIC_DOMAIN)</title></rect><rect class="uni" x="891px" y="5px" width="43px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>185 - 193 (CYTOPLASMIC_DOMAIN)</title></rect><rect class="uni" x="535px" y="5px" width="29px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>111 - 116 (CYTOPLASMIC_DOMAIN)</title></rect><rect class="uni" x="260px" y="5px" width="29px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>54 - 59 (CYTOPLASMIC_DOMAIN)</title></rect>
+</svg>
+
+<svg x="1058px" y="20px">
+    <use xlink:href="#blackArrowComponent"/>
+    <text x="15px" y="10.5px" style="font-family:Verdana,Helvetica,sans-serif;stroke:none;">
+        <tspan style="text-decoration:underline;fill:#525252;font-size: 11px">
+            <a xlink:href="http://phobius.sbc.su.se/"
+               target="_top">
+                    <title>CYTOPLASMIC_DOMAIN (Cytoplasmic domain)</title>
+                CYTOPLASMIC_D...
+                    
+            </a>
+        </tspan>
+            <tspan style="fill:#525252;font-size: 9px">
+                    (C...)
+                    
+            </tspan>
+    </text>
+</svg>
+<svg x="123px" y="36px">
+<rect width="930.0px" height="17px" style="fill:#EFEFEF"/><line x1="0px" y1="0px" x2="0px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="96px" y1="0px" x2="96px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="193px" y1="0px" x2="193px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="289px" y1="0px" x2="289px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="385px" y1="0px" x2="385px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="482px" y1="0px" x2="482px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="578px" y1="0px" x2="578px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="675px" y1="0px" x2="675px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="771px" y1="0px" x2="771px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="867px" y1="0px" x2="867px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="930px" y1="0px" x2="930px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><rect class="uni" x="10px" y="5px" width="925px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>2 - 193 (4rfsS00)</title></rect>
+</svg>
+
+<svg x="1058px" y="37px">
+    <use xlink:href="#blackArrowComponent"/>
+    <text x="15px" y="10.5px" style="font-family:Verdana,Helvetica,sans-serif;stroke:none;">
+        <tspan style="text-decoration:underline;fill:#525252;font-size: 11px">
+            <a xlink:href="http://www.cathdb.info/superfamily/1.10.1760.20"
+               target="_top">
+                        <title>G3DSA:1.10.1760.20</title>
+                G3DSA:1.10.17...
+                    
+            </a>
+        </tspan>
+    </text>
+</svg>
+<svg x="123px" y="53px">
+<rect width="930.0px" height="17px" style="fill:#EFEFEF"/><line x1="0px" y1="0px" x2="0px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="96px" y1="0px" x2="96px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="193px" y1="0px" x2="193px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="289px" y1="0px" x2="289px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="385px" y1="0px" x2="385px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="482px" y1="0px" x2="482px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="578px" y1="0px" x2="578px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="675px" y1="0px" x2="675px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="771px" y1="0px" x2="771px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="867px" y1="0px" x2="867px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="930px" y1="0px" x2="930px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><rect class="uni" x="381px" y="5px" width="53px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>79 - 89 (NON_CYTOPLASMIC_DOMAIN)</title></rect><rect class="uni" x="684px" y="5px" width="92px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>142 - 160 (NON_CYTOPLASMIC_DOMAIN)</title></rect><rect class="uni" x="130px" y="5px" width="24px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>27 - 31 (NON_CYTOPLASMIC_DOMAIN)</title></rect>
+</svg>
+
+<svg x="1058px" y="54px">
+    <use xlink:href="#blackArrowComponent"/>
+    <text x="15px" y="10.5px" style="font-family:Verdana,Helvetica,sans-serif;stroke:none;">
+        <tspan style="text-decoration:underline;fill:#525252;font-size: 11px">
+            <a xlink:href="http://phobius.sbc.su.se/"
+               target="_top">
+                    <title>NON_CYTOPLASMIC_DOMAIN (Non cytoplasmic domain)</title>
+                NON_CYTOPLASM...
+                    
+            </a>
+        </tspan>
+            <tspan style="fill:#525252;font-size: 9px">
+                    (N...)
+                    
+            </tspan>
+    </text>
+</svg>
+<svg x="123px" y="70px">
+<rect width="930.0px" height="17px" style="fill:#EFEFEF"/><line x1="0px" y1="0px" x2="0px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="96px" y1="0px" x2="96px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="193px" y1="0px" x2="193px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="289px" y1="0px" x2="289px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="385px" y1="0px" x2="385px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="482px" y1="0px" x2="482px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="578px" y1="0px" x2="578px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="675px" y1="0px" x2="675px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="771px" y1="0px" x2="771px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="867px" y1="0px" x2="867px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="930px" y1="0px" x2="930px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><rect class="uni" x="34px" y="5px" width="96px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>7 - 26 (TMhelix)</title></rect><rect class="uni" x="583px" y="5px" width="111px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>121 - 143 (TMhelix)</title></rect><rect class="uni" x="761px" y="5px" width="111px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>158 - 180 (TMhelix)</title></rect><rect class="uni" x="149px" y="5px" width="111px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>31 - 53 (TMhelix)</title></rect><rect class="uni" x="279px" y="5px" width="87px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>58 - 75 (TMhelix)</title></rect><rect class="uni" x="434px" y="5px" width="96px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>90 - 109 (TMhelix)</title></rect>
+</svg>
+
+<svg x="1058px" y="71px">
+    <use xlink:href="#blackArrowComponent"/>
+    <text x="15px" y="10.5px" style="font-family:Verdana,Helvetica,sans-serif;stroke:none;">
+        <tspan style="text-decoration:underline;fill:#525252;font-size: 11px">
+            <a xlink:href="http://www.cbs.dtu.dk/services/TMHMM/"
+               target="_top">
+                        <title>TMhelix</title>
+TMhelix
+            </a>
+        </tspan>
+    </text>
+</svg>
+<svg x="123px" y="87px">
+<rect width="930.0px" height="17px" style="fill:#EFEFEF"/><line x1="0px" y1="0px" x2="0px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="96px" y1="0px" x2="96px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="193px" y1="0px" x2="193px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="289px" y1="0px" x2="289px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="385px" y1="0px" x2="385px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="482px" y1="0px" x2="482px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="578px" y1="0px" x2="578px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="675px" y1="0px" x2="675px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="771px" y1="0px" x2="771px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="867px" y1="0px" x2="867px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><line x1="930px" y1="0px" x2="930px" y2="17px" style="stroke:#B8B8B8;stroke-width:1;stroke-dasharray:3.0"/><rect class="uni" x="34px" y="5px" width="96px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>7 - 26 (TRANSMEMBRANE)</title></rect><rect class="uni" x="289px" y="5px" width="92px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>60 - 78 (TRANSMEMBRANE)</title></rect><rect class="uni" x="776px" y="5px" width="116px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>161 - 184 (TRANSMEMBRANE)</title></rect><rect class="uni" x="564px" y="5px" width="120px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>117 - 141 (TRANSMEMBRANE)</title></rect><rect class="uni" x="434px" y="5px" width="101px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>90 - 110 (TRANSMEMBRANE)</title></rect><rect class="uni" x="154px" y="5px" width="106px" height="7px" rx="3.984848" ry="5.6705141" style="stroke:black;stroke-width:1.0"><title>32 - 53 (TRANSMEMBRANE)</title></rect>
+</svg>
+
+<svg x="1058px" y="88px">
+    <use xlink:href="#blackArrowComponent"/>
+    <text x="15px" y="10.5px" style="font-family:Verdana,Helvetica,sans-serif;stroke:none;">
+        <tspan style="text-decoration:underline;fill:#525252;font-size: 11px">
+            <a xlink:href="http://phobius.sbc.su.se/"
+               target="_top">
+                    <title>TRANSMEMBRANE (Transmembrane region)</title>
+TRANSMEMBRANE
+            </a>
+        </tspan>
+            <tspan style="fill:#525252;font-size: 9px">
+                    (Tran...)
+                    
+            </tspan>
+    </text>
+</svg>
+    </svg>
+</svg>
+
+<g id="goSection">
+    <!-- GO terms section title heading -->
+    <svg x="40" y="580" width="1200" height="90"
+         viewBox="0 0 1200 90">
+        <text font-size="13px" y="13px" fill="#393939" font-family="Verdana, Helvetica, sans-serif"
+              font-weight="bold">
+            GO Term prediction
+        </text>
+        <g id="goTable">
+            <svg y="30px">
+                <text id="biologicalProcess" font-size="11px" x="10px" dy="20px"
+                      font-family="Verdana, Helvetica, sans-serif">
+                    <tspan x="10px" fill="#393939" font-weight="bold">
+                        Biological process
+                    </tspan>
+                    <tspan x="10px" dy="20px" style="fill:#525252;stroke:none;">
+                        None predicted.
+                    </tspan>
+                </text>
+                <text id="molecularFunction" font-size="11px" x="436px" dy="20px"
+                      font-family="Verdana, Helvetica, sans-serif">
+                    <tspan x="436px" fill="#393939" font-weight="bold">
+                        Molecular function
+                    </tspan>
+                    <tspan x="436px" dy="20px"
+                           style="text-decoration:underline;stroke:none;fill:#0072FE;"><a
+                            xlink:href="http://www.ebi.ac.uk/QuickGO/term/GO:0005215"
+                            target="_top">GO:0005215</a></tspan>
+                    <tspan style="stroke:none;fill:#525252;">transporter activity</tspan>
+                </text>
+                <text font-size="11px" x="862px" dy="20px"
+                      font-family="Verdana, Helvetica, sans-serif">
+                    <tspan x="862px" fill="#393939" font-weight="bold">
+                        Cellular component
+                    </tspan>
+                    <tspan x="862px" dy="20px" style="fill:#525252;stroke:none;">
+                        None predicted.
+                    </tspan>
+                </text>
+            </svg>
+        </g>
+    </svg>
+</g>
+
+    <g id="versionSection">
+        <svg x="1050" y="750" width="1200" height="50" viewBox="0 0 1200 50">
+            <text font-size="11px" y="11px" font-family="Verdana, Helvetica, sans-serif" style="fill:#525252;stroke:none;">
+                Generated with InterProScan 5.29-68.0
+            </text>
+        </svg>
+    </g>
+
+</svg>

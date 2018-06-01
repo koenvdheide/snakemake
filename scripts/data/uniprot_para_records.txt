@@ -1,0 +1,12 @@
+Entry	Entry.name	Protein.names	EC.number	Organism	Organism.ID	Gene.names	Pathway	Gene.ontology..biological.process.	Cross.reference..kegg.
+T5JTW1	T5JTW1_LACPN	Membrane protein		Lactobacillus plantarum EGD-AQ4	1382301	N692_05765	NA		
+D7V787	D7V787_LACPN	Uncharacterized protein		Lactobacillus plantarum subsp. plantarum ATCC 14917 = JCM 1149 = CGMCC 1.2437	525338	HMPREF0531_10010	NA		
+U2W691	U2W691_LACPN	Integral membrane protein		Lactobacillus plantarum AY01	1358413	N644_0887	NA		
+M4KHK9	M4KHK9_LACPN	Uncharacterized protein		Lactobacillus plantarum ZJ316	1284663	zj316_1156	NA		lpt:zj316_1156;
+R9X4F0	R9X4F0_LACPN	Membrane protein		Lactobacillus plantarum 16	1327988	Lp16_0901	NA		lpz:Lp16_0901;
+A0A165XH34	A0A165XH34_LACPN	Substrate-specific component PanT of predictedpantothenate ECF transporter		Lactobacillus plantarum	1590	Nizo1839_1087	NA		
+A0A0R2G7V1	A0A0R2G7V1_LACPN	Uncharacterized protein		Lactobacillus plantarum	1590	IV39_GL003091	NA		
+A0A199QKU3	A0A199QKU3_LACPN	Uncharacterized protein		Lactobacillus plantarum	1590	A0U96_04925	NA		
+A0A0R1UI12	A0A0R1UI12_LACPN	Uncharacterized protein		Lactobacillus plantarum subsp. argentoratensis DSM 16365	1423831	FD10_GL001973	NA		
+A0A2I8UQX3	A0A2I8UQX3_LACPN	ECF transporter S component		Lactobacillus plantarum subsp. plantarum	337330	C1940_06370	NA		
+A0A0G9F7I5	A0A0G9F7I5_LACPN	ECF transporter S component (Membrane protein) (Substrate-specific component PanT of predictedpantothenate ECF transporter)		Lactobacillus plantarum	1590	A8704_07185 AVR82_14800 AYO51_06530 BIZ32_04575 C4O30_02330 CUR48_11815 Lp19_2487 LPJSA22_01061 Nizo2802_3121 Nizo2891_2385 WP50_36575	NA		lpb:SH83_04665;
