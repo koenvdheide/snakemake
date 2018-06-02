@@ -1,3 +1,9 @@
+<style
+  type="text/css">
+h1 {color:lightblue;}
+</style>
+
+
 # Annotating protiens based on their sequence
 
 Altough thousands of proteins have been identified in the last decades, for many of them the function remains unclear. Luckily there are numerous tools out there that can help us infer such functions based on simple input data (accession numbers or sequences). However the problem is the limited set of tools allowing us to query all these resources simultaneously. Therefore we aimed to coher some of these resources in a pipeline which only requires a proteins sequence as input and delivers a nice html file as output.
