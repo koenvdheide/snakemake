@@ -34,6 +34,7 @@ We have provided an example sequence (see `example/sequence.fasta`) and an examp
 We used different approaches to retrieve information form webservices, with all having their own problems. But these also shared a common problem, whenever the web service is down your pipeline is dead as well `;)`. 
 
  **Client code**:
+ 
 Downloading a client and using this to query a webservices is pretty straightforward.  The big advantages of such clients is that these have a list of parameters and advanced exception handling (with useful error messages).
 We used several of these:
  * *Python*:
@@ -45,12 +46,14 @@ We used several of these:
     * [Phobius](https://www.ebi.ac.uk/seqdb/confluence/pages/viewpage.action?pageId=54652414) [EBI]
 
  **NCBI Pipe**:
+ 
  A little more advanced client is NCBI entrez direct, which you can use to pipe data from one NCBI webservice to another quite easily. We preferred to parse the data directly using an XML expression rather then saving the data first and processing it afterwards. Spreading downloading and post-processing over two separate rules would be perfectly fine in our opinion when each rule has sufficient body on its own. However post-processing in this case could been done in a single line. Hence, adding another rule would make the flow unnecessary more complicated to follow (and we learned something about XML parsing!!!)
  
 * [Entrez Direct](https://www.ncbi.nlm.nih.gov/books/NBK179288/) 
     * To link a gene database query to a pubmed query  --> parsing using an XML expression (see code for further detail)
 
 **WGET requests:**
+
 Of course a webservice does not always provide a client code. Therefore we also wanted to practice data retrieval using `wget`. The hard part about this is that we preferably want to call the URL directly without pre-processing of the data. However nearly all webservices have their own way of seperating terms in the url, such as `<space>`, `+`, ` OR `, etc. Therefore we wrote a script (`formatter.py` ) which sperates query terms by a given separator. Now we could simply format the data in one single line and send the request in another one, such as:
 ```bash
 query=$(python3 scripts/formatter.py {input} '+OR+' q)
@@ -68,12 +71,14 @@ We used `wget` request in the following cases:
     * Network --> image retrieval
 
 **CURL requests:**
+
 `wget` is particularly useful when copying remote files to a local one. This fitted our needs in the case of UniProt and STRING, however in the case of KEGG we wanted to process the data directly without saving it to a file first. Again because the post-processing is rather simple (code wise). Additionally, it would be quite useless and inefficient to save whole KEGG entries when we only use very specific information from it (and leave the rest untouched). This is were `curl` comes in handy, as this directs the returned page to `stdout`, and hence making piping easier. In this case we piped the retrieved KEGG entries in `json` format to an `jr` expression we wrote. Resulting in a tab-delimited file containing solely the information we were interested in. 
 
 * [TOGOWS API](http://togows.org/):
     * KEGG annotation --> json parsing --> tab delimited data
 
 **Role of other scripts:**
+
 All the other scripts basically function as bridges between web services, except the `results.Rmd` script. The `results.Rmd` script combines the information from all the webservices and renders a HTML document. This document:
 * Shows all the results from the webservices
 * Shows the used parameters  (also after changing these in the config.yaml file --> *dynamic*). The user can thus compare parameters of different runs and see which work the best. It also comes in handy when interpreting the results of course. 
@@ -82,6 +87,7 @@ All the other scripts basically function as bridges between web services, except
 
 
 **What about the biology?:**
+
 The aspects are not covered in this GitHub repository, these are mentioned thoroughly in the output of the pipeline. Please see `examples/results.html` for such an example. 
 
 
