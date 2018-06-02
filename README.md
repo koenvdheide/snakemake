@@ -24,7 +24,7 @@ This contains several parameters that can be adjusted by the user, such as `e-va
 
 ## A quick overview
 We use several web resources to annotate your protein of interest. The steps (and order hereof) can be seen in the graph below:
-![](example/workflow_dag.svg)
+![](example/dag.svg)
 
 ## Example input +  output
 We have provided an example sequence (see `example/sequence.fasta`) and an example output of this sequence (see `example/results.html`). 
