@@ -10,17 +10,34 @@ fasta.header <- readLines(snakemake@input[[2]])[1]
 ######################################################################
 # Deriving species from input fasta
 ######################################################################
-species <- trimws(str_extract(string = fasta.header, pattern = "(?<=OS=).*(?=\\()"))
+if (grepl('OS', fasta.header)) {
+  pattern = "(?<=OS=).*(?=\\()"
+} else {
+  pattern = "(?<=\\[).*?(?=\\])"
+}
+species <- trimws(str_extract(string = fasta.header, pattern = pattern))
+print(species)
 
 ######################################################################
 # Determining paralogs and orthologs
 ######################################################################
+species.splitted <- strsplit(species, ' ')[[1]]
+
+# A function to check whether the name of the input species is different from 
+# that of the entry in question. We cannot simply compare these as some
+# Uniprot entries summarise strains (e.g. L.plantarum NC8/WCFS1).
+is.paralog <- function(species.name) {
+  pattern <- as.character(paste0("(?=.*", species.splitted,")", collapse=""))
+  paralog <- grepl(pattern, species.name, perl = TRUE)
+  return (paralog)
+}
+
 paralogs <- uniprot.table %>% 
-  filter(grepl(species,Organism)) %>%
+  filter(is.paralog(.$Organism)) %>%
   droplevels()
 
 orthologs <- uniprot.table %>%
-  filter(!grepl(species,Organism)) %>%
+  filter(!is.paralog(.$Organism)) %>%
   droplevels()
 
 ######################################################################

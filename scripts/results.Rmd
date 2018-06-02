@@ -2,7 +2,7 @@
 title: "Pipeline results"
 output: html_document
 ---
-*Author: Rick Beeloo*
+*Authors: Rick Beeloo & Koen van der Heide*
 
 
 ```{r setup, include=FALSE}
@@ -97,7 +97,7 @@ Arguably the easiest way to derive the function of a protein is to find a protei
 **Visual output**
 ![](data/blast_results.complete-visual-jpg.jpg)
 
-Information of the interpretation hereof can be found [here](https://www.biostars.org/p/3920/). Also you may be more familiar with the textual output which can be found [here](data/blast_results.out.txt) 
+Information of the interpretation hereof can be found [here](https://www.biostars.org/p/3920/). Also you may be more familiar with the textual output which can be found [here](blast_results.out.txt) 
 
 ***
 
@@ -134,7 +134,7 @@ uniprot.ortho %>%
 <br>
 **Uniprot sequences**
 
-As seeing the downloaded sequences is not that useful we refer to the [FASTA file](data/uniprot_sequences.txt) of these and chose to not include these in the report directly.
+As seeing the downloaded sequences is not that useful we refer to the [FASTA file](uniprot_sequences.txt) of these and chose to not include these in the report directly.
 
 **Note**: The chance of finding useful information about the protein in other species is reasonably higher than for protein from the same species. Therefore only orhologous matches were used for subsequent analysis.
 
@@ -145,7 +145,7 @@ As seeing the downloaded sequences is not that useful we refer to the [FASTA fil
 Basically two approaches can be used to search genes in the literature, text-mining or database coupling. We chose to use the latter in this case as protein names can greatly result in false positives due to uninformative names or different namings. So we coupled the gene database to the PubMed database, thereby coupling the genes to the uploader information which greatly enhances reliability. 
 
 ```{r echo = FALSE}
-literature.table <- read.table('data/literature_tab.txt',sep = '\t', header = F, fill = T)
+literature.table <- read.table('data/literature_results.txt',sep = '\t', header = F, fill = T)
 colnames(literature.table) <- c("Title","Journal","Year","PMID","Abstract")
 literature.table %>%
   kable() %>%
@@ -172,8 +172,12 @@ The data retrieved from Uniprot such as pathway and biological process already p
 *   Not all proteins are included in KEGG. Although ideally all proteins could be mapable to KEGG, this will practically not be the case. 
 *   A protein can be part of multiple pathways, and some pathways are sub pathways of others.
 ```{r echo = FALSE}
-kegg.data <- read.table("data/kegg_table.txt", sep = '\t', header = F)
-colnames(kegg.data) <-c('Gene ID','Pathway ID','Pathway name')
+kegg.data <- tryCatch(read.table("data/kegg_table.txt", sep = '\t', header = F), error=function(e) NA)
+if (!is.na(kegg.data)) {
+  colnames(kegg.data) <-c('Gene ID','Pathway ID','Pathway name')
+} else {
+  kegg.data <- data.frame()
+}
 ```
 Out of the `r nrow(uniprot.ortho)` Uniprot entries we were able to map `r nrow(kegg.results)` of them to KEGG, out of these **`r nrow(kegg.data)`** were coupled to a KEGG pathway. 
 

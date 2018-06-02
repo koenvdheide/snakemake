@@ -16,9 +16,9 @@ mail: r.beeloo@outlook.com
 # BLAST parameters
 ##############################################################
 blast_database: uniprotkb_bacteria
-blast_max_alignments: 250
+blast_max_alignments: 100
 e_value_cut_off: 0.05
-identity_cut_off: 60
+identity_cut_off: 80
 
 ##############################################################
 # STRING parameters

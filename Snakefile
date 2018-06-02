@@ -158,8 +158,7 @@ rule literature:
         'scripts/data/literature_results.txt'
     shell:
         "query=$(python3 scripts/formatter.py {input} ' OR ')\n"
-        "echo $query\n"
-        'esearch -db gene -query "$query" | elink -target pubmed | efetch -format xml --stop {params.max_articles}' +
+        'esearch -db gene -query \"$query\" | elink -target pubmed | efetch -format xml --stop {params.max_articles}' +
         ' | xtract -pattern PubmedArticle -element MedlineCitation/PMID ArticleTitle PubDate/Year Journal/ISSN  Abstract/AbstractText> {output}'
 
 rule interactions:
@@ -184,7 +183,7 @@ rule kegg:
         'scripts/data/kegg_table.txt'
     shell:
         "query=$(python3 scripts/formatter.py {input} ',')\n"
-        "curl http://togows.org/entry/kegg-genes/{query}.json" +
+        "curl http://togows.org/entry/kegg-genes/$query.json" +
         "| cat | jq -r '.[] | .genes_id as $id | .pathways | to_entries[] | " +
         "[$id, .key, .value] | @tsv' > {output}"
 
@@ -194,6 +193,7 @@ rule results:
         '--- Generating result page  ---'
     input:
         'scripts/data/phobius_result.visual-png.png',
+        'scripts/data/parameters.txt',
         'scripts/data/proscan_result.svg.svg',
         'scripts/data/blast_results.complete-visual-svg.svg',
         'scripts/data/uniprot_records.txt',
@@ -202,3 +202,5 @@ rule results:
         'scripts/data/literature_results.txt',
         'scripts/data/network.png',
         'scripts/data/kegg_table.txt'
+    shell:
+        "R -e \"library(rmarkdown); render('scripts/results.Rmd', output_dir = 'scripts/data')\""
