@@ -128,7 +128,7 @@ uniprot.ortho %>%
    select(-`Cross.reference..kegg.`) %>%
   kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
-  scroll_box(width = "1000px", height = "500px")
+  scroll_box(width = "800px", height = "500px")
 ```
 
 <br>
