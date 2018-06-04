@@ -13,6 +13,16 @@ library(ggtree)
 library(kableExtra)
 ```
 
+```{r echo = FALSE}
+get.h <- function(df) {
+  if (nrow(df) < 3) {
+    return (paste0(nrow(df),'px'))
+  } else {
+    return ('500px')
+  }
+}
+```
+
 ### <span style="color:#42c8f4">Goal</span>
 Unraveling the function of a protein is valuable in understanding its role in an organisms and may aid in drug discovery. Although tons of proteins have been annotated in recent years, many times a researcher will encounter proteins with function descriptions like 'unknown'  or 'hypothetical'. Such information is undoubtedly essential in experiments where such genes bind to your protein of interest or show differential expression. Direct prediction of a proteins function is hard if not impossible, however research can mostly derive this form annotation instantly. Hence, we wrote a script gathering such information. Two parts can be distinguished: 
 
@@ -85,7 +95,7 @@ names(df) <- NULL
 df %>%
   kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
-  scroll_box(width = "1000px", height = "500px")
+  scroll_box(width = "1000px", height = get.h(df))
 ```
 
 ***
@@ -116,7 +126,11 @@ uniprot.para %>%
    select(-`Cross.reference..kegg.`) %>%
   kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
+<<<<<<< HEAD
+  scroll_box(width = "1000px", height = get.h(uniprot.para))
+=======
   scroll_box(width = "800px", height = "300px")
+>>>>>>> 2ead8ccb7926e5566cbfbf055b3df5947700c81f
 ```
 
 <br>
@@ -128,7 +142,11 @@ uniprot.ortho %>%
    select(-`Cross.reference..kegg.`) %>%
   kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
+<<<<<<< HEAD
+  scroll_box(width = "1000px", height = get.h(uniprot.ortho))
+=======
   scroll_box(width = "800px", height = "500px")
+>>>>>>> 2ead8ccb7926e5566cbfbf055b3df5947700c81f
 ```
 
 <br>
@@ -151,7 +169,7 @@ colnames(literature.table) <- c("Title","Journal","Year","PMID","Abstract")
 literature.table %>%
   kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
-  scroll_box(width = "1000px", height = "500px")
+  scroll_box(width = "1000px", height = get.h(literature.table))
 ```
 
 
@@ -164,7 +182,6 @@ kegg.map.dat <- uniprot.ortho %>%
 kegg.results <- kegg.map.dat %>%
   filter(kegg.map != '') 
 kegg.results$kegg.map <- gsub(';','',kegg.results$kegg.map)
-
 ```
 
 ### <span style="color:#42c8f4">Kegg</span>
@@ -192,9 +209,8 @@ if (nrow(kegg.data) > 0) {
   full.table %>%
   kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
-  scroll_box(width = "1000px", height = "500px")
+  scroll_box(width = "800px", height = get.h(full.table))
 } 
-
 ```
 
 
@@ -210,7 +226,6 @@ tree <- read.tree('data/t_coffee_msa.phylotree.ph')
 fasta <- 'data/fasta_msa.out.txt'
 suppressMessages(suppressWarnings(msaplot(p=ggtree(tree), fasta)))
 ```
-
 
 ### <span style="color:#42c8f4">Code</span>
 In this rapport we mainly foccused on the biological aspects of the pipeline. We chose to dedicate a gihtub repository to the technical aspects of this pipeline.
