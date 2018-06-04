@@ -42,7 +42,7 @@ df <- data.frame(
 ) 
 names(df) <- NULL
 df %>%
-  kable() %>%
+  kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left")
 ```
 
@@ -83,7 +83,7 @@ Unfortunately the textual output does not have a header, nonetheless it's easy i
 df <- read.table('data/proscan_result.tsv.txt',sep = '\t', header = F, fill = T)
 names(df) <- NULL
 df %>%
-  kable() %>%
+  kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
   scroll_box(width = "1000px", height = "500px")
 ```
@@ -114,7 +114,7 @@ The protein sequences and annotation for the significant BLAST matches was retri
 ```{r echo = FALSE}
 uniprot.para %>%
    select(-`Cross.reference..kegg.`) %>%
-  kable() %>%
+  kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
   scroll_box(width = "1000px", height = "500px")
 ```
@@ -126,7 +126,7 @@ uniprot.para %>%
 ```{r echo = FALSE}
 uniprot.ortho %>%
    select(-`Cross.reference..kegg.`) %>%
-  kable() %>%
+  kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
   scroll_box(width = "1000px", height = "500px")
 ```
@@ -148,7 +148,7 @@ Basically two approaches can be used to search genes in the literature, text-min
 literature.table <- read.table('data/literature_results.txt',sep = '\t', header = F, fill = T)
 colnames(literature.table) <- c("Title","Journal","Year","PMID","Abstract")
 literature.table %>%
-  kable() %>%
+  kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
   scroll_box(width = "1000px", height = "500px")
 ```
@@ -187,7 +187,7 @@ if (nrow(kegg.data) > 0) {
   full.table <- suppressMessages(suppressWarnings(kegg.data %>% left_join(kegg.results)))
   colnames(full.table) <- c('Kegg ID','Pathway name', 'Pathway ID', 'Entry')
   full.table %>%
-  kable() %>%
+  kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
   scroll_box(width = "1000px", height = "500px")
 } 
