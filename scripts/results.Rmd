@@ -116,7 +116,7 @@ uniprot.para %>%
    select(-`Cross.reference..kegg.`) %>%
   kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
-  scroll_box(width = "1000px", height = "500px")
+  scroll_box(width = "800px", height = "300px")
 ```
 
 <br>
@@ -173,11 +173,13 @@ The data retrieved from Uniprot such as pathway and biological process already p
 *   A protein can be part of multiple pathways, and some pathways are sub pathways of others.
 ```{r echo = FALSE}
 kegg.data <- tryCatch(read.table("data/kegg_table.txt", sep = '\t', header = F), error=function(e) NA)
+suppressWarnings(
 if (!is.na(kegg.data)) {
   colnames(kegg.data) <-c('Gene ID','Pathway ID','Pathway name')
 } else {
   kegg.data <- data.frame()
 }
+)
 ```
 Out of the `r nrow(uniprot.ortho)` Uniprot entries we were able to map `r nrow(kegg.results)` of them to KEGG, out of these **`r nrow(kegg.data)`** were coupled to a KEGG pathway. 
 
