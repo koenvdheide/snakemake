@@ -126,11 +126,7 @@ uniprot.para %>%
    select(-`Cross.reference..kegg.`) %>%
   kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
-<<<<<<< HEAD
   scroll_box(width = "1000px", height = get.h(uniprot.para))
-=======
-  scroll_box(width = "800px", height = "300px")
->>>>>>> 2ead8ccb7926e5566cbfbf055b3df5947700c81f
 ```
 
 <br>
@@ -142,11 +138,7 @@ uniprot.ortho %>%
    select(-`Cross.reference..kegg.`) %>%
   kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
-<<<<<<< HEAD
   scroll_box(width = "1000px", height = get.h(uniprot.ortho))
-=======
-  scroll_box(width = "800px", height = "500px")
->>>>>>> 2ead8ccb7926e5566cbfbf055b3df5947700c81f
 ```
 
 <br>
@@ -163,8 +155,7 @@ As seeing the downloaded sequences is not that useful we refer to the [FASTA fil
 Basically two approaches can be used to search genes in the literature, text-mining or database coupling. We chose to use the latter in this case as protein names can greatly result in false positives due to uninformative names or different namings. So we coupled the gene database to the PubMed database, thereby coupling the genes to the uploader information which greatly enhances reliability. 
 
 ```{r echo = FALSE}
-literature.table <- read.table('data/literature_results.txt',sep = '\t', header = F, fill = T,
-                               quote = "")
+literature.table <- read.table('data/literature_results.txt',sep = '\t', header = F, fill = T)
 colnames(literature.table) <- c("Title","Journal","Year","PMID","Abstract")
 literature.table %>%
   kable("html") %>%
