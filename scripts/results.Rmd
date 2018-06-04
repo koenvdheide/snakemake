@@ -145,7 +145,8 @@ As seeing the downloaded sequences is not that useful we refer to the [FASTA fil
 Basically two approaches can be used to search genes in the literature, text-mining or database coupling. We chose to use the latter in this case as protein names can greatly result in false positives due to uninformative names or different namings. So we coupled the gene database to the PubMed database, thereby coupling the genes to the uploader information which greatly enhances reliability. 
 
 ```{r echo = FALSE}
-literature.table <- read.table('data/literature_results.txt',sep = '\t', header = F, fill = T)
+literature.table <- read.table('data/literature_results.txt',sep = '\t', header = F, fill = T,
+                               quote = "")
 colnames(literature.table) <- c("Title","Journal","Year","PMID","Abstract")
 literature.table %>%
   kable("html") %>%
@@ -173,13 +174,13 @@ The data retrieved from Uniprot such as pathway and biological process already p
 *   A protein can be part of multiple pathways, and some pathways are sub pathways of others.
 ```{r echo = FALSE}
 kegg.data <- tryCatch(read.table("data/kegg_table.txt", sep = '\t', header = F), error=function(e) NA)
-suppressWarnings(
+suppressMessages(suppressWarnings(
 if (!is.na(kegg.data)) {
   colnames(kegg.data) <-c('Gene ID','Pathway ID','Pathway name')
 } else {
   kegg.data <- data.frame()
 }
-)
+))
 ```
 Out of the `r nrow(uniprot.ortho)` Uniprot entries we were able to map `r nrow(kegg.results)` of them to KEGG, out of these **`r nrow(kegg.data)`** were coupled to a KEGG pathway. 
 
