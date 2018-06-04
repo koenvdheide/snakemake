@@ -11,8 +11,6 @@ dependencies:
   - bioconductor-s4vectors=0.16.0=r3.4.1_0
   - bioconductor-stringdb=1.18.0=r3.4.1_0
   - bioconductor-uniprot.ws=2.18.0=r3.4.1_0
-  - bioconductor-rmarkdown=1.9=r3.4.1_0
-  - bioconductor-ggtree=1.10.5=r3.4.1_0 
   - entrez-direct=7.70=pl5.22.0_0
   - perl-digest-hmac=1.03=pl5.22.0_1
   - perl-encode-locale=1.05=pl5.22.0_4
