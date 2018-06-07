@@ -1,9 +1,15 @@
 # Annotating proteins based on their sequence
 
-Altough thousands of proteins have been identified in the last decades, for many of them the function remains unclear. Luckily there are numerous tools out there that can help us infer such functions based on simple input data (accession numbers or sequences). However the problem is the limited set of tools allowing us to query all these resources simultaneously. Therefore we aimed to coher some of these resources in a pipeline which only requires a proteins sequence as input and delivers a nice html file as output.
+Altough thousands of proteins have been identified in the last decades, for many of them the function remains unclear. Luckily there are numerous tools out there that can help us infer such functions based on simple input data (accession numbers or sequences). However the problem is the limited set of tools allowing us to query all these resources simultaneously. Therefore we aimed to group some of these resources into a pipeline which only requires a protein sequence (in FASTA format) as input and delivers a nice html file as output.
 
 
 ## Getting Started
+### Requirements
+* Snakemake
+* Conda
+* (Optionally) Vagrant
+
+### Steps
 **1.Clone this repository**
  ```bash
 git clone https://github.com/koenvdheide/snakemake.git 
@@ -95,7 +101,7 @@ The aspects are not covered in this GitHub repository, these are mentioned thoro
 ## Authors
 
 * **Rick Beeloo** - *r.beeloo@outlook.com*
-* **Koen van der Heide** - *koen_van_der_heide@hotmai.com*
+* **Koen van der Heide** - *koen_van_der_heide@hotmail.com*
 
 ## Acknowledgments
 
