@@ -23,7 +23,7 @@ source activate pipeline
 
 **3. Run the pipeline!**
  ```bash
-Snakemake results
+Snakemake
 ```
 ## The config file (config.yaml)
 This contains several parameters that can be adjusted by the user, such as `e-value cut-off` , `blast database`, `mail address`, etc. Besides the mail address the parameters do not have to be changed, but of course can be changed whenever preferred (the parameters will be saved to be able to differentiate runs). 
