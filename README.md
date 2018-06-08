@@ -13,12 +13,12 @@ Altough thousands of proteins have been identified in the last decades, for many
 **1.Clone this repository**
  ```bash
 git clone https://github.com/koenvdheide/snakemake.git 
-cd ~/snakemake
+cd snakemake
 ```
 **2.Create & activate the conda environment**
  ```bash
 conda env create -f envs/environment.yaml -n pipeline
-conda source activate pipeline
+source activate pipeline
 ```
 
 **3. Run the pipeline!**
