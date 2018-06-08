@@ -204,3 +204,9 @@ rule results:
         'scripts/data/kegg_table.txt'
     shell:
         "R -e \"library(rmarkdown); render('scripts/results.Rmd', output_dir = 'scripts/data')\""
+rule all:
+    message:
+	    '--- GOOD LUCK ---'
+    input:
+	    'data/results.html'
+	
