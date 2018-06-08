@@ -10,13 +10,14 @@ knitr::opts_chunk$set(echo = TRUE)
 library(knitr)
 library(dplyr)
 library(ggtree)
+library(tidyr)
 library(kableExtra)
 ```
 
 ```{r echo = FALSE}
 get.h <- function(df) {
   if (nrow(df) < 3) {
-    return (paste0(nrow(df),'px'))
+    return ('200px')
   } else {
     return ('500px')
   }
@@ -155,8 +156,10 @@ As seeing the downloaded sequences is not that useful we refer to the [FASTA fil
 Basically two approaches can be used to search genes in the literature, text-mining or database coupling. We chose to use the latter in this case as protein names can greatly result in false positives due to uninformative names or different namings. So we coupled the gene database to the PubMed database, thereby coupling the genes to the uploader information which greatly enhances reliability. 
 
 ```{r echo = FALSE}
-literature.table <- read.table('data/literature_results.txt',sep = '\t', header = F, fill = T)
-colnames(literature.table) <- c("Title","Journal","Year","PMID","Abstract")
+literature.table <- read.table('data/literature_results.txt',sep = '\t', header = F, fill = T, quote = "")
+colnames(literature.table) <- c("Title","Journal","Year","PMID","Abstract", seq(1:(ncol(literature.table) - 5)))
+literature.table <- literature.table %>%
+  unite('Abstract',grep('Abstract', colnames(literature.table)):ncol(literature.table))
 literature.table %>%
   kable("html") %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>%
