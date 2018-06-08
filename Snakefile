@@ -9,6 +9,9 @@ Latest modification:
 
 configfile: "config.yaml"
 
+rule all:
+    input: "scripts/data/results.html"
+
 rule user_input:
     message:
         '--- File input ---'
@@ -206,8 +209,3 @@ rule results:
         'scripts/data/results.html'
     shell:
         "R -e \"library(rmarkdown); render('scripts/results.Rmd', output_dir = 'scripts/data')\""
-rule all:
-    message:
-	    '--- GOOD LUCK ---'
-    input:
-	    'data/results.html'
