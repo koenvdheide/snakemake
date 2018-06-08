@@ -68,7 +68,7 @@ rule blast:
         ' --database {params.blast_database} --stype protein --program blastp --align 7' +
         ' --alignments {params.max_align} --outfile scripts/data/blast_results'
 
-rule analyze_matches:
+rule filter_matches:
     message:
         "--- Filtering BLAST matches ---"
     input:
