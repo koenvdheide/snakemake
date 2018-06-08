@@ -1,10 +1,9 @@
 """
 Author: Rick Beeloo & Koen van der Heide
 Aim: A simple worfklow to aid in unraveling the function of a protein
-Date: 09-05-2018
 Run: snakemake -s Snakefile
 Latest modification:
-    - removed extract scripts and used command line commands as replacement
+    - Result rendering update
 """
 
 configfile: "config.yaml"
