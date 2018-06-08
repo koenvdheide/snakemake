@@ -185,6 +185,7 @@ dependencies:
   - r-xml=3.98_1.6=r3.4.1_0
   - r-xtable=1.8_2=r3.4.1_0
   - r-rmarkdown
+  - r-tidyr
   - r-kableextra
   - readline=6.2=0
   - requests=2.18.4=py35_1
