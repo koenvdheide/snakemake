@@ -202,6 +202,8 @@ rule results:
         'scripts/data/literature_results.txt',
         'scripts/data/network.png',
         'scripts/data/kegg_table.txt'
+    output:
+        'scripts/data/results.html'
     shell:
         "R -e \"library(rmarkdown); render('scripts/results.Rmd', output_dir = 'scripts/data')\""
 rule all:
@@ -209,4 +211,3 @@ rule all:
 	    '--- GOOD LUCK ---'
     input:
 	    'data/results.html'
-	
